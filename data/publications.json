@@ -1,0 +1,427 @@
+[
+  {
+    "title": "Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
+    "authors": "Tianjie Ju, Yiting Wang, Xinbei Ma, Pengzhou Cheng, Haodong Zhao, Yulong Wang, Lifeng Liu, Jian Xie, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "SCIS 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:WF5omc3nYNoC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 1,
+    "pinned": true
+  },
+  {
+    "title": "Probing Then Editing Response Personality of Large Language Models",
+    "authors": "Tianjie Ju*, Zhenyu Shao*, Bowen Wang, Yujia Chen, Zhuosheng Zhang, Hao Fei, Mong-Li Lee, Wynne Hsu, Sufeng Duan, Gongshen Liu",
+    "venue": "COLM 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:8k81kl-MbHgC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 2
+  },
+  {
+    "title": "Watch out Your Album! on the Inadvertent Privacy Memorization in Multi-Modal Large Language Models",
+    "authors": "Tianjie Ju*, Yi Hua*, Hao Fei, Zhenyu Shao, Yubin Zheng, Haodong Zhao, Mong-Li Lee, Wynne Hsu, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "ICML 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:hqOjcs7Dif8C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 2
+  },
+  {
+    "title": "Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models",
+    "authors": "Tianjie Ju, Yijin Chen, Xinwei Yuan, Zhuosheng Zhang, Wei Du, Yubin Zheng, Gongshen Liu",
+    "venue": "ACL  (Main) 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:zYLM7Y9cAGgC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 1
+  },
+  {
+    "title": "Investigating the Adaptive Robustness with Knowledge Conflicts in LLM-Based Multi-Agent Systems",
+    "authors": "Tianjie Ju*, Bowen Wang*, Hao Fei, Mong-Li Lee, Wynne Hsu, Yun Li, Qianren Wang, Pengzhou Cheng, Zongru Wu, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "ICML Workshop 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:UebtZRa9Y70C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 0,
+    "order_hint": 80
+  },
+  {
+    "title": "How Large Language Models Encode Context Knowledge? a Layer-Wise Probing Study",
+    "authors": "Tianjie Ju, Weiwei Sun, Wei Du, Xinwei Yuan, Zhaochun Ren, Gongshen Liu",
+    "venue": "LREC-COLING 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:Tyk-4Ss8FVUC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 1
+  },
+  {
+    "title": "自然语言处理中的探针可解释方法综述",
+    "authors": "Tianjie Ju, Gongshen Liu, Zhuosheng Zhang, Ru Zhang",
+    "venue": "计算机学报 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:ufrVoPGSRksC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1,
+    "order_hint": 60
+  },
+  {
+    "title": "On Path to Multimodal Generalist: General-Level and General-Bench",
+    "authors": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Weiming Wu, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang",
+    "venue": "ICML 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:MXK_kJrjxJIC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "Is Continuous Prompt a Combination of Discrete Prompts? Towards a Novel View for Interpreting Continuous Prompts",
+    "authors": "Tianjie Ju, Yubin Zheng, Hanyi Wang, Haodong Zhao, Gongshen Liu",
+    "venue": "ACL 2023 (Findings)",
+    "year": 2023,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:u-x6o8ySG0sC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 1,
+    "order_hint": 70
+  },
+  {
+    "title": "On the Robustness of Editing Large Language Models",
+    "authors": "Xinbei Ma, Tianjie Ju, Jiyang Qiu, Zhuosheng Zhang, Hai Zhao, Lifeng Liu, Yulong Wang",
+    "venue": "EMNLP  (Main) 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:roLk4NBRz8UC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "On the Adaptive Psychological Persuasion of Large Language Models",
+    "authors": "Tianjie Ju*, Yujia Chen*, Hao Fei, Mong-Li Lee, Wynne Hsu, Pengzhou Cheng, Zongru Wu, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:KlAtU1dfN6UC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 0
+  },
+  {
+    "title": "Trojanrag: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
+    "authors": "Pengzhou Cheng, Yidong Ding, Tianjie Ju, Zongru Wu, Wei Du, Ping Yi, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:eQOLeE2rZwMC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "Os-Kairos: Adaptive Interaction for Mllm-Powered Gui Agents",
+    "authors": "Pengzhou Cheng, Zheng Wu, Zongru Wu, Tianjie Ju, Aston Zhang, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "ACL 2025 (Findings)",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:M3ejUd6NZC8C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
+    "authors": "Zehao Deng, Tianjie Ju, Zheng Wu, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:qxL8FJ1GzNcC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection",
+    "authors": "Yijie Lu, Tianjie Ju, Manman Zhao, Xinbei Ma, Yuan Guo, ZhuoSheng Zhang",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:kNdYIx-mwKoC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "Smoothing Grounding and Reasoning for Mllm-Powered Gui Agents with Query-Oriented Pivot Tasks",
+    "authors": "Zongru Wu, Pengzhou Cheng, Zheng Wu, Tianjie Ju, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:0EnyYjriUFMC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles",
+    "authors": "Zongru Wu, Rui Mao, Zhiyuan Tian, Pengzhou Cheng, Tianjie Ju, Zheng Wu, Lingzhong Dong, Haiyue Sheng, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:ULOm3_A8WrAC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents",
+    "authors": "Pengzhou Cheng, Haowen Hu, Zheng Wu, Zongru Wu, Tianjie Ju, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:3fE2CSJIrl8C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "FedDEAP: Adaptive Dual-Prompt Tuning for Multi-Domain Federated Learning",
+    "authors": "Yubin Zheng, Pak Hei Yeung, Jing Xia, Tianjie Ju, Peng Tang, Weidong Qiu, Jagath C Rajapakse",
+    "venue": "ACM MM 2025",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:_kc_bZDykSQC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "Dr. V: a Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding",
+    "authors": "Meng Luo, Shengqiong Wu, Liqiang Jing, Tianjie Ju, Li Zheng, Jinxiang Lai, Tianlong Wu, Xinya Du, Jian Li, Siyuan Yan, Jiebo Luo, William Yang Wang, Hao Fei, Mong-Li Lee, Wynne Hsu",
+    "venue": "Working in Progress",
+    "year": 2025,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:Zph67rFs4hoC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "Uor: Universal Backdoor Attacks on Pre-Trained Language Models",
+    "authors": "Wei Du, Peixuan Li, Haodong Zhao, Tianjie Ju, Ge Ren, Gongshen Liu",
+    "venue": "ACL 2024 (Findings)",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:4TOpqqG69KYC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "Backdoor NLP Models via AI-Generated Text",
+    "authors": "Wei Du, Tianjie Ju, Ge Ren, GaoLei Li, Gongshen Liu",
+    "venue": "LREC-COLING 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:YsMSGLbcyi4C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "Transferring Backdoors between Large Language Models by Knowledge Distillation",
+    "authors": "Pengzhou Cheng, Zongru Wu, Tianjie Ju, Wei Du, Zhuosheng Zhang Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:_FxGoFyzp5QC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "NSmark: Null Space Based Black-Box Watermarking Defense Framework for Language Models",
+    "authors": "Haodong Zhao, Jinming Hu, Peixuan Li, Fangqi Li, Jinrui Sha, Tianjie Ju, Peixuan Chen, Zhuosheng Zhang, Gongshen Liu",
+    "venue": "Working in Progress",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:5nxA0vEk-isC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "General LLMs as Instructors for Domain-Specific LLMs: a Sequential Fusion Method to Integrate Extraction and Editing",
+    "authors": "Xin Zhang, Tianjie Ju, Huijia Liang, Ying Fu, Qin Zhang",
+    "venue": "Working in Progress",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:Se3iqnhoufwC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
+    "title": "Federated Semi-Supervised Learning for Medical Image Segmentation with Intra-Client and Inter-Client Consistency",
+    "authors": "Yubin Zheng, Peng Tang, Tianjie Ju, Hao Wang, Weidong Qiu, Jagath C Rajapakse",
+    "venue": "BIBM 2024",
+    "year": 2024,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:Y0pCki6q_DkC",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  },
+  {
+    "title": "TIMS: a Novel Approach for Incrementally Few-Shot Text Instance Selection via Model Similarity",
+    "authors": "Tianjie Ju, Han Liao, Gongshen Liu",
+    "venue": "IJCNN 2022",
+    "year": 2022,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:d1gkVwhDpl0C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 1,
+    "order_hint": 50
+  },
+  {
+    "title": "FLAG: Flow Representation Generator Based on Self-Supervised Learning for Encrypted Traffic Classification",
+    "authors": "Wenting Wei, Tianjie Ju, Han Liao, Weike Zhao, Huaxi Gu",
+    "venue": "APNet 2021",
+    "year": 2021,
+    "kind": "",
+    "links": {
+      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:u5HHmVD_uO8C",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 1
+  }
+]

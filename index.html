@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tianjie Ju</title>
+    <meta
+      name="description"
+      content="Academic homepage: research interests, news, publications, education, and awards."
+    />
+    <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="Go to home">
+          <span class="brand-mark" aria-hidden="true">TJ</span>
+          <span class="brand-text">Tianjie Ju</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav-link" href="#about">
+            <span class="nav-icon" aria-hidden="true" data-icon="user"></span>
+            About
+          </a>
+          <a class="nav-link" href="#news">
+            <span class="nav-icon" aria-hidden="true" data-icon="news"></span>
+            News
+          </a>
+          <a class="nav-link" href="#publications">
+            <span class="nav-icon" aria-hidden="true" data-icon="paper"></span>
+            Publications
+          </a>
+          <a class="nav-link" href="#education">
+            <span class="nav-icon" aria-hidden="true" data-icon="cap"></span>
+            Education
+          </a>
+          <a class="nav-link" href="#services">
+            <span class="nav-icon" aria-hidden="true" data-icon="service"></span>
+            Service
+          </a>
+          <a class="nav-link" href="#awards">
+            <span class="nav-icon" aria-hidden="true" data-icon="award"></span>
+            Awards
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="content" class="site-main">
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <div class="hero-left">
+            <h1 class="hero-title">Tianjie Ju</h1>
+            <p class="hero-subtitle">PhD Student at Shanghai Jiao Tong University (SJTU)</p>
+
+            <div class="meta-line">
+              <span class="pill">
+                <span class="pill-icon" aria-hidden="true" data-icon="pin"></span>
+                Shanghai, China
+              </span>
+            </div>
+
+            <div class="links">
+              <a class="link-btn" href="mailto:jometeorie@sjtu.edu.cn">
+                <span class="btn-icon" aria-hidden="true" data-icon="mail"></span>
+                Email
+              </a>
+              <a class="link-btn" href="https://github.com/Jometeorie" target="_blank" rel="noreferrer">
+                <span class="btn-icon" aria-hidden="true" data-icon="github"></span>
+                GitHub
+              </a>
+              <a
+                class="link-btn"
+                href="https://scholar.google.com/citations?user=f8PPcnoAAAAJ&hl=zh-CN"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="btn-icon" aria-hidden="true" data-icon="scholar"></span>
+                Google Scholar
+              </a>
+            </div>
+
+            <!-- <p class="hero-note"> -->
+              <!-- My research interests are Large Language Models, Multi-Agent Systems for Social Simulation, and Interpretability. -->
+            <!-- </p> -->
+          </div>
+
+          <div class="hero-right" aria-hidden="true">
+            <div class="avatar-card">
+              <picture>
+                <source srcset="./assets/images/IMG_4121.HEIC" type="image/heic" />
+                <img
+                  class="avatar-photo"
+                  src="./assets/images/IMG_4121.jpg"
+                  alt="Portrait of Tianjie Ju"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="user"></span>
+            <h2>About</h2>
+          </div>
+          <div class="card">
+            <p>
+              I am a PhD student in the School of Computer Science at SJTU, starting in 2021 and
+              continuing to the present. My advisors are Prof. Gongshen Liu and Assoc. Prof.
+              Zhuosheng Zhang.
+            </p>
+            <p>
+              From Oct 2024 to Oct 2025, I have been a visiting student at NUS CTIC under the
+              supervision of Prof. Mong-Li Lee and Prof. Wynne Hsu. I am also mentored by Dr. Hao
+              Fei.
+            </p>
+            <p>
+              My research interests include Large Language Models, Multi-Agent Systems for Social Simulation, and Interpretability.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="news"></span>
+            <h2>News</h2>
+          </div>
+          <div class="card">
+            <ul class="list" id="news-list">
+              <li class="muted small">Loading…</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="publications" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="paper"></span>
+            <h2>Publications</h2>
+          </div>
+
+          <div class="toolbar">
+            <div class="toolbar-left">
+              <span class="muted small" id="pub-count">Loading…</span>
+            </div>
+            <div class="toolbar-right">
+              <label class="sr-only" for="pub-query">Search publications</label>
+              <input id="pub-query" class="input" placeholder="Search title / authors / venue…" />
+            </div>
+          </div>
+
+          <div class="grid" id="pub-grid" aria-live="polite"></div>
+
+          <div class="pub-more">
+            <button id="pub-toggle" class="btn" type="button" hidden>Show more</button>
+          </div>
+
+          <div class="muted small" style="margin-top: 10px">* indicates equal contributions.</div>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="cap"></span>
+            <h2>Education</h2>
+          </div>
+          <div class="card">
+            <ul class="list">
+              <li>
+                <span class="date">2021 - Present</span>
+                <span class="text">PhD, School of Computer Science, SJTU</span>
+              </li>
+              <li>
+                <span class="date">2024 - 2025</span>
+                <span class="text">Visiting Student, NUS CTIC</span>
+              </li>
+              <li>
+                <span class="date">2017 - 2021</span>
+                <span class="text">B.E., School of Computer Science, XDU</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="service"></span>
+            <h2>Service</h2>
+          </div>
+          <div class="card">
+            <ul class="list">
+              <li>
+                <span class="date">Reviewer</span>
+                <span class="text">
+                  ACL (2024, 2025), EMNLP (2025), ICML (2025), NeurIPS (2025), ICLR (2026), CVPR
+                  (2026), COLM (2025), SCIS (2025), COLING (2024), Neurocomputing (2025)
+                </span>
+              </li>
+              <li>
+                <span class="date">Volunteer</span>
+                <span class="text">ACL (2024)</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="awards" class="section">
+        <div class="container">
+          <div class="section-title">
+            <span class="section-icon" aria-hidden="true" data-icon="award"></span>
+            <h2>Awards</h2>
+          </div>
+          <div class="card">
+            <ul class="list">
+              <li>
+                <span class="date">2024</span>
+                <span class="text">National Scholarship (国家奖学金), SJTU</span>
+              </li>
+              <li>
+                <span class="date">2021</span>
+                <span class="text">National Scholarship (国家奖学金), XDU</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-inner">
+          <div class="muted small">© <span id="year"></span> Tianjie Ju</div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./assets/icons.js"></script>
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
+
