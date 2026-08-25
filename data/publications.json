@@ -2,7 +2,7 @@
   {
     "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
     "authors": "Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Xinbei Ma, Hao Fei, Kunling Li, Mong-Li Lee, Wynne Hsu, Qi Gu, Gongshen Liu, Zhuosheng Zhang",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2026,
     "kind": "",
     "links": {
@@ -68,7 +68,7 @@
     "links": {
       "paper": "",
       "pdf": "",
-      "code": "https://github.com/hehehahi4/Causal-Probing-for-Internal-Visual-Representations",
+      "code": "",
       "project": ""
     },
     "first_author": true,
@@ -261,7 +261,7 @@
   {
     "title": "On the Adaptive Psychological Persuasion of Large Language Models",
     "authors": "Tianjie Ju*, Yujia Chen*, Hao Fei, Mong-Li Lee, Wynne Hsu, Pengzhou Cheng, Zongru Wu, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
@@ -276,7 +276,7 @@
   {
     "title": "Trojanrag: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
     "authors": "Pengzhou Cheng, Yidong Ding, Tianjie Ju, Zongru Wu, Wei Du, Ping Yi, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2024,
     "kind": "",
     "links": {
@@ -306,7 +306,7 @@
   {
     "title": "Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
     "authors": "Zehao Deng, Tianjie Ju, Zheng Wu, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
@@ -321,7 +321,7 @@
   {
     "title": "EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection",
     "authors": "Yijie Lu, Tianjie Ju, Manman Zhao, Xinbei Ma, Yuan Guo, ZhuoSheng Zhang",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
@@ -336,13 +336,13 @@
   {
     "title": "Smoothing Grounding and Reasoning for Mllm-Powered Gui Agents with Query-Oriented Pivot Tasks",
     "authors": "Zongru Wu, Pengzhou Cheng, Zheng Wu, Tianjie Ju, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:0EnyYjriUFMC",
       "pdf": "",
-      "code": "https://github.com/ZrW00/GUIPivot",
+      "code": "",
       "project": ""
     },
     "first_author": false,
@@ -351,7 +351,7 @@
   {
     "title": "See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles",
     "authors": "Zongru Wu, Rui Mao, Zhiyuan Tian, Pengzhou Cheng, Tianjie Ju, Zheng Wu, Lingzhong Dong, Haiyue Sheng, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
@@ -366,13 +366,13 @@
   {
     "title": "Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents",
     "authors": "Pengzhou Cheng, Haowen Hu, Zheng Wu, Zongru Wu, Tianjie Ju, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:3fE2CSJIrl8C",
       "pdf": "",
-      "code": "https://github.com/CTZhou-byte/AgentGhost",
+      "code": "",
       "project": ""
     },
     "first_author": false,
@@ -381,7 +381,7 @@
   {
     "title": "Dr. V: a Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding",
     "authors": "Meng Luo, Shengqiong Wu, Liqiang Jing, Tianjie Ju, Li Zheng, Jinxiang Lai, Tianlong Wu, Xinya Du, Jian Li, Siyuan Yan, Jiebo Luo, William Yang Wang, Hao Fei, Mong-Li Lee, Wynne Hsu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2025,
     "kind": "",
     "links": {
@@ -402,7 +402,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:4TOpqqG69KYC",
       "pdf": "",
-      "code": "https://github.com/SJTUDuWei/UOR-Universal-Backdoor-Attacks-on-Pre-trained-Models",
+      "code": "",
       "project": ""
     },
     "first_author": false,
@@ -417,7 +417,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:YsMSGLbcyi4C",
       "pdf": "",
-      "code": "https://github.com/SJTUDuWei/Backdoor-NLP-Models-via-AI-Generated-Text",
+      "code": "",
       "project": ""
     },
     "first_author": false,
@@ -426,7 +426,7 @@
   {
     "title": "Transferring Backdoors between Large Language Models by Knowledge Distillation",
     "authors": "Pengzhou Cheng, Zongru Wu, Tianjie Ju, Wei Du, Zhuosheng Zhang Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2024,
     "kind": "",
     "links": {
@@ -441,7 +441,7 @@
   {
     "title": "NSmark: Null Space Based Black-Box Watermarking Defense Framework for Language Models",
     "authors": "Haodong Zhao, Jinming Hu, Peixuan Li, Fangqi Li, Jinrui Sha, Tianjie Ju, Peixuan Chen, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2024,
     "kind": "",
     "links": {
@@ -456,7 +456,7 @@
   {
     "title": "General LLMs as Instructors for Domain-Specific LLMs: a Sequential Fusion Method to Integrate Extraction and Editing",
     "authors": "Xin Zhang, Tianjie Ju, Huijia Liang, Ying Fu, Qin Zhang",
-    "venue": "Working in Progress",
+    "venue": "",
     "year": 2024,
     "kind": "",
     "links": {

@@ -168,8 +168,8 @@ function buildPubCard(pub) {
   const tags = [];
   if (kind) tags.push(`<span class="tag">${kind}</span>`);
   if (venue) tags.push(`<span class="tag">${venue}</span>`);
-  // For Working in Progress, keep an explicit year tag to show time.
-  if (norm(pub.venue) === "working in progress" && year) tags.push(`<span class="tag">${year}</span>`);
+  // Entries without a formal venue still show their publication year.
+  if (!venue && year) tags.push(`<span class="tag">${year}</span>`);
 
   const links = [];
   if (pub.links?.paper) {
