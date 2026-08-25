@@ -46,7 +46,7 @@
   },
   {
     "title": "First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves",
-    "authors": "Tianjie Ju, Xinyue Xu, Wanxuan Sun, Lingxiao Diao, Gongshen Liu, Zhuosheng Zhang, Cheng Yang",
+    "authors": "Tianjie Ju*, Xinyue Xu*, Wanxuan Sun, Lingxiao Diao, Gongshen Liu, Zhuosheng Zhang, Cheng Yang",
     "venue": "EMNLP 2026 (Findings)",
     "year": 2026,
     "kind": "",
@@ -61,17 +61,17 @@
   },
   {
     "title": "Causal Probing for Internal Visual Representations in Multimodal Large Language Models",
-    "authors": "Zehao Deng, Tianjie Ju, Zheng Wu, Liangbo He, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang",
+    "authors": "Zehao Deng*, Tianjie Ju*, Zheng Wu, Liangbo He, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang",
     "venue": "EMNLP 2026 (Main)",
     "year": 2026,
     "kind": "",
     "links": {
       "paper": "",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/hehehahi4/Causal-Probing-for-Internal-Visual-Representations",
       "project": ""
     },
-    "first_author": false,
+    "first_author": true,
     "status_rank": 2
   },
   {
@@ -129,7 +129,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:8k81kl-MbHgC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/universe-sky/probing-then-editing-personality",
       "project": ""
     },
     "first_author": true,
@@ -144,7 +144,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:hqOjcs7Dif8C",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/illusionhi/ProbingPrivacy",
       "project": ""
     },
     "first_author": true,
@@ -159,7 +159,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:zYLM7Y9cAGgC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/Jometeorie/MultiHopShortcuts",
       "project": ""
     },
     "first_author": true,
@@ -174,7 +174,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:UebtZRa9Y70C",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/wbw625/MultiAgentRobustness",
       "project": ""
     },
     "first_author": true,
@@ -190,7 +190,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:Tyk-4Ss8FVUC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/Jometeorie/probing_llama",
       "project": ""
     },
     "first_author": true,
@@ -221,7 +221,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:MXK_kJrjxJIC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/path2generalist/General-Level",
       "project": ""
     },
     "first_author": false,
@@ -252,7 +252,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:roLk4NBRz8UC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/xbmxb/edit_analysis",
       "project": ""
     },
     "first_author": false,
@@ -267,7 +267,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:KlAtU1dfN6UC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/KalinaEine/PsychologicalPersuasion",
       "project": ""
     },
     "first_author": true,
@@ -282,7 +282,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:eQOLeE2rZwMC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/CTZhou-byte/TrojanRAG",
       "project": ""
     },
     "first_author": false,
@@ -297,7 +297,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:M3ejUd6NZC8C",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/Wuzheng02/OS-Kairos",
       "project": ""
     },
     "first_author": false,
@@ -312,7 +312,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:qxL8FJ1GzNcC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/hehehahi4/CES",
       "project": ""
     },
     "first_author": false,
@@ -342,7 +342,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:0EnyYjriUFMC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/ZrW00/GUIPivot",
       "project": ""
     },
     "first_author": false,
@@ -357,7 +357,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:ULOm3_A8WrAC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/ZrW00/StaR",
       "project": ""
     },
     "first_author": false,
@@ -372,26 +372,11 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:3fE2CSJIrl8C",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/CTZhou-byte/AgentGhost",
       "project": ""
     },
     "first_author": false,
     "status_rank": 0
-  },
-  {
-    "title": "FedDEAP: Adaptive Dual-Prompt Tuning for Multi-Domain Federated Learning",
-    "authors": "Yubin Zheng, Pak Hei Yeung, Jing Xia, Tianjie Ju, Peng Tang, Weidong Qiu, Jagath C Rajapakse",
-    "venue": "ACM MM 2025",
-    "year": 2025,
-    "kind": "",
-    "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:_kc_bZDykSQC",
-      "pdf": "",
-      "code": "",
-      "project": ""
-    },
-    "first_author": false,
-    "status_rank": 1
   },
   {
     "title": "Dr. V: a Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding",
@@ -402,7 +387,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:Zph67rFs4hoC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/Eurekaleo/Dr.V",
       "project": ""
     },
     "first_author": false,
@@ -417,7 +402,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:4TOpqqG69KYC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/SJTUDuWei/UOR-Universal-Backdoor-Attacks-on-Pre-trained-Models",
       "project": ""
     },
     "first_author": false,
@@ -432,7 +417,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:YsMSGLbcyi4C",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/SJTUDuWei/Backdoor-NLP-Models-via-AI-Generated-Text",
       "project": ""
     },
     "first_author": false,
@@ -447,7 +432,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:_FxGoFyzp5QC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/Zhou-CyberSecurity-AI/ATBA",
       "project": ""
     },
     "first_author": false,
@@ -462,7 +447,7 @@
     "links": {
       "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:5nxA0vEk-isC",
       "pdf": "",
-      "code": "",
+      "code": "https://github.com/dongdongzhaoUP/NSmark",
       "project": ""
     },
     "first_author": false,
@@ -482,51 +467,5 @@
     },
     "first_author": false,
     "status_rank": 0
-  },
-  {
-    "title": "Federated Semi-Supervised Learning for Medical Image Segmentation with Intra-Client and Inter-Client Consistency",
-    "authors": "Yubin Zheng, Peng Tang, Tianjie Ju, Hao Wang, Weidong Qiu, Jagath C Rajapakse",
-    "venue": "BIBM 2024",
-    "year": 2024,
-    "kind": "",
-    "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:Y0pCki6q_DkC",
-      "pdf": "",
-      "code": "",
-      "project": ""
-    },
-    "first_author": false,
-    "status_rank": 1
-  },
-  {
-    "title": "TIMS: a Novel Approach for Incrementally Few-Shot Text Instance Selection via Model Similarity",
-    "authors": "Tianjie Ju, Han Liao, Gongshen Liu",
-    "venue": "IJCNN 2022",
-    "year": 2022,
-    "kind": "",
-    "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:d1gkVwhDpl0C",
-      "pdf": "",
-      "code": "",
-      "project": ""
-    },
-    "first_author": true,
-    "status_rank": 1,
-    "order_hint": 50
-  },
-  {
-    "title": "FLAG: Flow Representation Generator Based on Self-Supervised Learning for Encrypted Traffic Classification",
-    "authors": "Wenting Wei, Tianjie Ju, Han Liao, Weike Zhao, Huaxi Gu",
-    "venue": "APNet 2021",
-    "year": 2021,
-    "kind": "",
-    "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:u5HHmVD_uO8C",
-      "pdf": "",
-      "code": "",
-      "project": ""
-    },
-    "first_author": false,
-    "status_rank": 1
   }
 ]

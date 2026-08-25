@@ -649,7 +649,7 @@ code {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 960px) {
   .brand-text {
     display: none;
   }
