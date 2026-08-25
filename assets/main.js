@@ -106,6 +106,58 @@ function highlightMe(escapedAuthors) {
   );
 }
 
+function parseGitHubRepo(rawUrl) {
+  try {
+    const url = new URL(String(rawUrl));
+    if (url.protocol !== "https:" || url.hostname.toLowerCase() !== "github.com") return null;
+
+    const parts = url.pathname.split("/").filter(Boolean);
+    if (parts.length < 2) return null;
+
+    const owner = decodeURIComponent(parts[0]);
+    const repo = decodeURIComponent(parts[1]).replace(/\.git$/i, "");
+    const validSegment = /^[A-Za-z0-9_.-]+$/;
+    if (!owner || !repo || !validSegment.test(owner) || !validSegment.test(repo)) return null;
+
+    return { owner, repo };
+  } catch (e) {
+    return null;
+  }
+}
+
+function buildGitHubStarBadge({ owner, repo }) {
+  const badgePath = `${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
+  const badgeUrl = `https://img.shields.io/github/stars/${badgePath}?style=social&label=stars`;
+  const description = `Live GitHub star count for ${owner}/${repo}`;
+
+  return `<img
+    class="github-star-badge"
+    src="${escapeAttr(badgeUrl)}"
+    alt="${escapeAttr(description)}"
+    title="${escapeAttr(description)}"
+    loading="lazy"
+    decoding="async"
+    referrerpolicy="no-referrer"
+  />`;
+}
+
+function initGitHubStarBadges(root = document) {
+  root.querySelectorAll(".github-star-badge").forEach((badge) => {
+    if (badge.dataset.errorFallbackReady === "true") return;
+    badge.dataset.errorFallbackReady = "true";
+    badge.addEventListener(
+      "error",
+      () => {
+        // Keep the GitHub link usable if the external badge service is unavailable.
+        badge.hidden = true;
+      },
+      { once: true },
+    );
+    // Static badges may finish failing before DOMContentLoaded and listener setup.
+    if (badge.complete && badge.naturalWidth === 0) badge.hidden = true;
+  });
+}
+
 function buildPubCard(pub) {
   const title = escapeHTML(pub.title || "Untitled");
   const authors = highlightMe(escapeHTML(normalizeAuthors(pub.authors || "")));
@@ -135,16 +187,29 @@ function buildPubCard(pub) {
     );
   }
   if (pub.links?.code) {
-    links.push(
-      `<a class="chip" href="${escapeHTML(pub.links.code)}" target="_blank" rel="noreferrer">
-        <span class="btn-icon" aria-hidden="true" data-icon="code"></span> Code
-      </a>`,
-    );
+    const githubRepo = parseGitHubRepo(pub.links.code);
+    if (githubRepo) {
+      links.push(
+        `<a class="chip chip-github" href="${escapeAttr(pub.links.code)}" target="_blank" rel="noreferrer">
+          <span class="github-chip-label">
+            <span class="btn-icon" aria-hidden="true" data-icon="github"></span>
+            <span>GitHub</span>
+          </span>
+          ${buildGitHubStarBadge(githubRepo)}
+        </a>`,
+      );
+    } else {
+      links.push(
+        `<a class="chip" href="${escapeAttr(pub.links.code)}" target="_blank" rel="noreferrer">
+          <span class="btn-icon" aria-hidden="true" data-icon="code"></span> Code
+        </a>`,
+      );
+    }
   }
   if (pub.links?.project) {
     links.push(
       `<a class="chip" href="${escapeHTML(pub.links.project)}" target="_blank" rel="noreferrer">
-        <span class="btn-icon" aria-hidden="true" data-icon="link"></span> Project
+        <span class="btn-icon" aria-hidden="true" data-icon="link"></span> Project Page
       </a>`,
     );
   }
@@ -212,6 +277,7 @@ async function initPublications() {
     }
 
     window.__icons?.initIcons?.();
+    initGitHubStarBadges(grid);
   }
 
   toggleEl.addEventListener("click", () => {
@@ -234,11 +300,10 @@ function initFooterYear() {
 
 function init() {
   window.__icons?.initIcons?.();
+  initGitHubStarBadges();
   initNews();
   initPublications();
   initFooterYear();
 }
 
 document.addEventListener("DOMContentLoaded", init);
-
-

@@ -229,6 +229,11 @@ code {
   background: var(--surface);
 }
 
+.profile-github-link {
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
 .hero-note {
   margin: 10px 0 0;
   color: var(--muted);
@@ -297,6 +302,18 @@ code {
   background: var(--card);
   box-shadow: var(--shadow);
   padding: 14px 16px;
+}
+
+.card p a {
+  color: #365b8c;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(54, 91, 140, 0.4);
+  text-underline-offset: 3px;
+}
+
+.card p a:hover {
+  text-decoration-color: currentColor;
 }
 
 .collaborator-callout {
@@ -567,6 +584,32 @@ code {
   background: var(--surface);
 }
 
+.chip-github {
+  min-width: 0;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+  white-space: normal;
+}
+
+.github-chip-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+
+.github-star-badge {
+  display: block;
+  width: auto;
+  height: 20px;
+  max-width: 100%;
+  flex: 0 1 auto;
+}
+
+.github-star-badge[hidden] {
+  display: none;
+}
+
 .muted {
   color: var(--muted);
 }
@@ -650,6 +693,11 @@ code {
     width: 44px;
     height: 44px;
     flex-basis: 44px;
+  }
+
+  .pub-links,
+  .chip-github {
+    max-width: 100%;
   }
 }
 
