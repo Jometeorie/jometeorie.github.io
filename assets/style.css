@@ -1,15 +1,16 @@
 :root {
-  --bg: #ffffff;
-  --fg: #111827;
-  --muted: #6b7280;
-  --line: #e5e7eb;
-  --card: #ffffff;
-  --shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --bg: #f1ead8;
+  --fg: #242820;
+  --muted: #746e60;
+  --line: #d9ceb4;
+  --card: #fffdf7;
+  --surface: #f8f2e5;
+  --shadow: 0 1px 3px rgba(74, 62, 36, 0.08);
   --radius: 14px;
   --radius-sm: 10px;
   --max: 980px;
-  --accent: #111827;
-  --accent-soft: #f3f4f6;
+  --accent: #374151;
+  --accent-soft: #e9dfc8;
 }
 
 * {
@@ -18,7 +19,11 @@
 
 html,
 body {
-  height: 100%;
+  min-height: 100%;
+}
+
+html {
+  scroll-padding-top: 78px;
 }
 
 body {
@@ -34,7 +39,7 @@ body {
     "Apple Color Emoji",
     "Segoe UI Emoji";
   color: var(--fg);
-  background: var(--bg);
+  background: linear-gradient(180deg, #f6f0e1 0%, var(--bg) 55%, #eee3cc 100%) fixed;
   line-height: 1.55;
 }
 
@@ -47,7 +52,7 @@ code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 0.95em;
-  background: #f9fafb;
+  background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 8px;
   padding: 0 0.35em;
@@ -78,7 +83,7 @@ code {
   position: sticky;
   top: 0;
   z-index: 40;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(241, 234, 216, 0.92);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid var(--line);
 }
@@ -152,6 +157,7 @@ code {
 
 .hero {
   padding: 34px 0 18px;
+  scroll-margin-top: 78px;
 }
 
 .hero-inner {
@@ -165,6 +171,14 @@ code {
   margin: 0;
   font-size: 40px;
   letter-spacing: -0.03em;
+}
+
+.hero-name-cn {
+  color: #5f5748;
+  font-size: 0.72em;
+  font-weight: 620;
+  letter-spacing: 0;
+  white-space: nowrap;
 }
 
 .hero-subtitle {
@@ -187,7 +201,7 @@ code {
   padding: 6px 10px;
   border-radius: 999px;
   border: 1px solid var(--line);
-  background: #fafafa;
+  background: var(--surface);
   color: var(--muted);
   font-size: 13px;
 }
@@ -212,7 +226,7 @@ code {
   font-weight: 560;
 }
 .link-btn:hover {
-  background: #fafafa;
+  background: var(--surface);
 }
 
 .hero-note {
@@ -233,7 +247,7 @@ code {
   display: grid;
   place-items: center;
   color: var(--muted);
-  background: linear-gradient(180deg, #f9fafb, #ffffff);
+  background: linear-gradient(180deg, var(--surface), var(--card));
   border-bottom: 1px solid var(--line);
   font-weight: 600;
 }
@@ -244,7 +258,7 @@ code {
   object-fit: cover;
   display: block;
   border-bottom: 1px solid var(--line);
-  background: #f9fafb;
+  background: var(--surface);
 }
 
 .avatar-caption {
@@ -262,6 +276,7 @@ code {
 
 .section {
   padding: 18px 0;
+  scroll-margin-top: 78px;
 }
 
 .section-title {
@@ -282,6 +297,48 @@ code {
   background: var(--card);
   box-shadow: var(--shadow);
   padding: 14px 16px;
+}
+
+.collaborator-callout {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0 0;
+  padding: 13px 15px;
+  border: 1px solid #e1c976;
+  border-radius: var(--radius-sm);
+  background: #fff2bf;
+  line-height: 1.55;
+}
+
+.callout-icon {
+  flex: 0 0 auto;
+}
+
+.news-scroll {
+  max-height: 190px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 10px;
+  scrollbar-color: #b9a476 transparent;
+  scrollbar-width: thin;
+}
+
+.news-scroll:focus-visible {
+  outline: 2px solid #806d43;
+  outline-offset: 3px;
+}
+
+.news-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-scroll::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: #b9a476;
 }
 
 .list {
@@ -308,6 +365,64 @@ code {
   color: var(--fg);
 }
 
+.affiliation-list {
+  display: grid;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.affiliation-list li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.affiliation-logo {
+  display: grid;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  place-items: center;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #ffffff;
+}
+
+.affiliation-logo-xidian {
+  background: #15477c;
+}
+
+.affiliation-logo img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.affiliation-copy {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.affiliation-name {
+  width: fit-content;
+  color: var(--fg);
+  font-size: 15px;
+  font-weight: 680;
+}
+
+.affiliation-name:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .toolbar {
   display: flex;
   align-items: center;
@@ -325,7 +440,7 @@ code {
 .btn {
   appearance: none;
   border: 1px solid var(--line);
-  background: #ffffff;
+  background: var(--card);
   box-shadow: var(--shadow);
   border-radius: 12px;
   padding: 10px 14px;
@@ -335,7 +450,7 @@ code {
   cursor: pointer;
 }
 .btn:hover {
-  background: #fafafa;
+  background: var(--surface);
 }
 
 .input {
@@ -344,7 +459,7 @@ code {
   border-radius: 12px;
   border: 1px solid var(--line);
   outline: none;
-  background: #ffffff;
+  background: var(--card);
   box-shadow: var(--shadow);
 }
 .input:focus {
@@ -441,7 +556,7 @@ code {
   padding: 7px 10px;
   border-radius: 12px;
   border: 1px solid var(--line);
-  background: #ffffff;
+  background: var(--card);
   font-size: 13px;
   color: #374151;
   line-height: 1;
@@ -449,7 +564,7 @@ code {
   flex: 0 0 auto;
 }
 .chip:hover {
-  background: #fafafa;
+  background: var(--surface);
 }
 
 .muted {
@@ -496,3 +611,54 @@ code {
   }
 }
 
+@media (max-width: 840px) {
+  .brand-text {
+    display: none;
+  }
+
+  .nav {
+    gap: 2px;
+  }
+
+  .nav-link {
+    gap: 0;
+    padding: 8px;
+    font-size: 0;
+  }
+
+  .nav-icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 34px;
+  }
+
+  .hero-name-cn {
+    display: block;
+    margin-top: 2px;
+  }
+
+  .collaborator-callout {
+    padding: 12px;
+  }
+
+  .affiliation-logo {
+    width: 44px;
+    height: 44px;
+    flex-basis: 44px;
+  }
+}
+
+@media (max-width: 360px) {
+  .nav {
+    gap: 1px;
+  }
+
+  .nav-link {
+    padding: 7px;
+  }
+}

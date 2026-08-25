@@ -1,5 +1,80 @@
 [
   {
+    "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
+    "authors": "Tianjie Ju, Yueqing Sun, Zheng Wu, Wei Zhang, Yaqi Huo, Xi Su, Qi GU, Xunliang Cai, Gongshen Liu, Zhuosheng Zhang",
+    "venue": "EMNLP 2026 (Main)",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 2
+  },
+  {
+    "title": "First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves",
+    "authors": "Tianjie Ju, Xinyue Xu, Wanxuan Sun, Lingxiao Diao, Gongshen Liu, Zhuosheng Zhang, Cheng Yang",
+    "venue": "EMNLP 2026 (Findings)",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": true,
+    "status_rank": 2
+  },
+  {
+    "title": "Causal Probing for Internal Visual Representations in Multimodal Large Language Models",
+    "authors": "Zehao Deng, Tianjie Ju, Zheng Wu, Liangbo He, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang",
+    "venue": "EMNLP 2026 (Main)",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 2
+  },
+  {
+    "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
+    "authors": "Zhaoyuan Huang, Tianjie Ju, Pengzhou Cheng, Zheng Wu, Yansi Li, Chuanbiao Song, Jun Lan, Huijia Zhu, Weiqiang Wang, Zhuosheng Zhang",
+    "venue": "EMNLP 2026 (Main)",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 2
+  },
+  {
+    "title": "Reasoning or Rambling? Exploring the Effect of Thinking on Agent Persuasion",
+    "authors": "Haodong Zhao, Jidong Li, Zhaomin Wu, Tianjie Ju, Zhuosheng Zhang, Bingsheng He, Gongshen Liu",
+    "venue": "EMNLP 2026 (Findings)",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "",
+      "pdf": "",
+      "code": "",
+      "project": ""
+    },
+    "first_author": false,
+    "status_rank": 2
+  },
+  {
     "title": "Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
     "authors": "Tianjie Ju, Yiting Wang, Xinbei Ma, Pengzhou Cheng, Haodong Zhao, Yulong Wang, Lifeng Liu, Jian Xie, Zhuosheng Zhang, Gongshen Liu",
     "venue": "SCIS 2025",
