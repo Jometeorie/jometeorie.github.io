@@ -20,6 +20,11 @@
     "text": "I received my Ph.D. degree from Shanghai Jiao Tong University (SJTU)."
   },
   {
+    "date": "2026.05",
+    "icon": "🚀",
+    "text": "We are excited to release MineExplorer, a benchmark for evaluating open-world exploration by MLLM agents in Minecraft!"
+  },
+  {
     "date": "2026.03",
     "icon": "💼",
     "text": "I joined the LongCat Team as a Research Intern."

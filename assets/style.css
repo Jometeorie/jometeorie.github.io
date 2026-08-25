@@ -229,11 +229,6 @@ code {
   background: var(--surface);
 }
 
-.profile-github-link {
-  min-width: 0;
-  flex-wrap: wrap;
-}
-
 .hero-note {
   margin: 10px 0 0;
   color: var(--muted);

@@ -127,7 +127,7 @@ function parseGitHubRepo(rawUrl) {
 
 function buildGitHubStarBadge({ owner, repo }) {
   const badgePath = `${encodeURIComponent(owner)}/${encodeURIComponent(repo)}`;
-  const badgeUrl = `https://img.shields.io/github/stars/${badgePath}?style=social&label=stars`;
+  const badgeUrl = `https://img.shields.io/github/stars/${badgePath}?style=flat&label=&color=ece7dd`;
   const description = `Live GitHub star count for ${owner}/${repo}`;
 
   return `<img
@@ -153,7 +153,7 @@ function initGitHubStarBadges(root = document) {
       },
       { once: true },
     );
-    // Static badges may finish failing before DOMContentLoaded and listener setup.
+    // Also handle a cached failure that completed before listener setup.
     if (badge.complete && badge.naturalWidth === 0) badge.hidden = true;
   });
 }
@@ -300,7 +300,6 @@ function initFooterYear() {
 
 function init() {
   window.__icons?.initIcons?.();
-  initGitHubStarBadges();
   initNews();
   initPublications();
   initFooterYear();

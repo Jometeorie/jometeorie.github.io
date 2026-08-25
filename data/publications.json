@@ -15,6 +15,21 @@
     "status_rank": 0
   },
   {
+    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+    "authors": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu",
+    "venue": "arXiv 2026",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "https://arxiv.org/abs/2608.13558",
+      "pdf": "",
+      "code": "https://github.com/Omni-Scientist/OmniScientist",
+      "project": "https://omni-scientist.github.io/"
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
     "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
     "authors": "Tianjie Ju, Yueqing Sun, Zheng Wu, Wei Zhang, Yaqi Huo, Xi Su, Qi GU, Xunliang Cai, Gongshen Liu, Zhuosheng Zhang",
     "venue": "EMNLP 2026 (Main)",
@@ -88,21 +103,6 @@
     },
     "first_author": false,
     "status_rank": 2
-  },
-  {
-    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-    "authors": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu",
-    "venue": "arXiv 2026",
-    "year": 2026,
-    "kind": "",
-    "links": {
-      "paper": "https://arxiv.org/abs/2608.13558",
-      "pdf": "",
-      "code": "https://github.com/Omni-Scientist/OmniScientist",
-      "project": "https://omni-scientist.github.io/"
-    },
-    "first_author": false,
-    "status_rank": 0
   },
   {
     "title": "Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
