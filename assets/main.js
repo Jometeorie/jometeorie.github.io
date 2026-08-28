@@ -179,6 +179,13 @@ function buildPubCard(pub) {
       </a>`,
     );
   }
+  if (pub.links?.huggingface) {
+    links.push(
+      `<a class="chip" href="${escapeAttr(pub.links.huggingface)}" target="_blank" rel="noreferrer">
+        <span aria-hidden="true">🤗</span> Hugging Face
+      </a>`,
+    );
+  }
   if (pub.links?.pdf) {
     links.push(
       `<a class="chip" href="${escapeHTML(pub.links.pdf)}" target="_blank" rel="noreferrer">

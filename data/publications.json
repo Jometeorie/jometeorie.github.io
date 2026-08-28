@@ -6,7 +6,8 @@
     "year": 2026,
     "kind": "",
     "links": {
-      "paper": "",
+      "paper": "https://arxiv.org/abs/2608.27456",
+      "huggingface": "https://huggingface.co/papers/2608.27456",
       "pdf": "",
       "code": "https://github.com/UrbanGround/UrbanGround",
       "project": "https://urbanground.github.io/"
