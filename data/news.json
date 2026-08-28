@@ -2,12 +2,25 @@
   {
     "date": "2026.09",
     "icon": "🚀",
-    "text": "We are excited to release UrbanGround, a real-scale 3D city modeling sandbox of Hong Kong!"
+    "text": "We are excited to release UrbanGround, a real-scale 3D city modeling sandbox of Hong Kong!",
+    "link": {
+      "label": "UrbanGround",
+      "url": "https://urbanground.github.io/"
+    }
   },
   {
     "date": "2026.09",
     "icon": "🎓",
     "text": "I will join the CTIC Lab at the National University of Singapore (NUS) as a Postdoctoral Researcher."
+  },
+  {
+    "date": "2026.08",
+    "icon": "🚀",
+    "text": "We are excited to release OmniScientist, an omni-modal, omni-discipline AI scientist for end-to-end multidisciplinary scientific research!",
+    "link": {
+      "label": "OmniScientist",
+      "url": "https://omni-scientist.github.io/"
+    }
   },
   {
     "date": "2026.08",

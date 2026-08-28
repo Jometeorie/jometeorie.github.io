@@ -22,10 +22,33 @@ function norm(s) {
   return String(s || "").toLowerCase().trim();
 }
 
+function safeHttpsUrl(rawUrl) {
+  try {
+    const url = new URL(String(rawUrl || ""));
+    return url.protocol === "https:" ? url.href : "";
+  } catch (e) {
+    return "";
+  }
+}
+
+function buildNewsText(item) {
+  const rawText = String(item.text || "");
+  const label = String(item.link?.label || "");
+  const href = safeHttpsUrl(item.link?.url);
+  const labelIndex = label ? rawText.indexOf(label) : -1;
+
+  if (!href || labelIndex < 0) return escapeHTML(rawText);
+
+  const before = rawText.slice(0, labelIndex);
+  const after = rawText.slice(labelIndex + label.length);
+  const linkedLabel = `<a class="news-link" href="${escapeAttr(href)}" target="_blank" rel="noopener noreferrer">${escapeHTML(label)}</a>`;
+  return `${escapeHTML(before)}${linkedLabel}${escapeHTML(after)}`;
+}
+
 function buildNewsItem(item) {
   const date = escapeHTML(item.date || "");
   const icon = escapeHTML(item.icon || "");
-  const text = escapeHTML(item.text || "");
+  const text = buildNewsText(item);
 
   const prefix = icon ? `${icon} ` : "";
   return `<li><span class="date">${date}</span><span class="text">${prefix}${text}</span></li>`;
