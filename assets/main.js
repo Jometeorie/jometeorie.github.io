@@ -187,12 +187,13 @@ function buildPubCard(pub) {
   const venue = escapeHTML(normalizeVenue(pub.venue || ""));
   const year = escapeHTML(pub.year || "");
   const kind = escapeHTML(pub.kind || "");
+  const yearAfterProject = !venue && year && Boolean(pub.links?.project);
 
   const tags = [];
   if (kind) tags.push(`<span class="tag">${kind}</span>`);
   if (venue) tags.push(`<span class="tag">${venue}</span>`);
   // Entries without a formal venue still show their publication year.
-  if (!venue && year) tags.push(`<span class="tag">${year}</span>`);
+  if (!venue && year && !yearAfterProject) tags.push(`<span class="tag">${year}</span>`);
 
   const links = [];
   if (pub.links?.paper) {
@@ -243,6 +244,7 @@ function buildPubCard(pub) {
       </a>`,
     );
   }
+  if (yearAfterProject) links.push(`<span class="tag">${year}</span>`);
 
   return `
     <article class="pub-card">
