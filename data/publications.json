@@ -23,6 +23,7 @@
     "kind": "",
     "links": {
       "paper": "https://arxiv.org/abs/2608.13558",
+      "huggingface": "https://huggingface.co/papers/2608.13558",
       "pdf": "",
       "code": "https://github.com/Omni-Scientist/OmniScientist",
       "project": "https://omni-scientist.github.io/"
