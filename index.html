@@ -46,7 +46,7 @@
     <meta name="twitter:image:alt" content="Portrait of Tianjie Ju (鞠天杰)" />
 
     <link rel="icon" href="./assets/favicon.svg?v=20260825-tj" type="image/svg+xml" />
-    <link rel="stylesheet" href="./assets/style.css?v=20260828" />
+    <link rel="stylesheet" href="./assets/style.css?v=20260921" />
 
     <script type="application/ld+json">
       {
@@ -300,11 +300,13 @@
             </div>
           </div>
 
-          <div class="grid" id="pub-grid" aria-live="polite"></div>
-
-          <div class="pub-more">
-            <button id="pub-toggle" class="btn" type="button" hidden>Show more</button>
-          </div>
+          <div
+            class="grid publication-scroll"
+            id="pub-grid"
+            tabindex="0"
+            aria-label="Scrollable publication list"
+            aria-live="polite"
+          ></div>
 
           <div class="muted small" style="margin-top: 10px">* indicates equal contributions.</div>
         </div>
@@ -467,6 +469,6 @@
     </main>
 
     <script src="./assets/icons.js"></script>
-    <script src="./assets/main.js?v=20260828-3"></script>
+    <script src="./assets/main.js?v=20260921"></script>
   </body>
 </html>

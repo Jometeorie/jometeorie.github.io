@@ -69,7 +69,7 @@
     "year": 2026,
     "kind": "",
     "links": {
-      "paper": "",
+      "paper": "https://arxiv.org/abs/2609.05224",
       "pdf": "",
       "code": "",
       "project": ""
@@ -84,7 +84,7 @@
     "year": 2026,
     "kind": "",
     "links": {
-      "paper": "",
+      "paper": "https://arxiv.org/abs/2605.05593",
       "pdf": "",
       "code": "",
       "project": ""
@@ -99,7 +99,7 @@
     "year": 2026,
     "kind": "",
     "links": {
-      "paper": "",
+      "paper": "https://arxiv.org/abs/2609.03438",
       "pdf": "",
       "code": "",
       "project": ""
@@ -114,7 +114,7 @@
     "year": 2026,
     "kind": "",
     "links": {
-      "paper": "",
+      "paper": "https://arxiv.org/abs/2509.21054",
       "pdf": "",
       "code": "",
       "project": ""
@@ -129,7 +129,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:WF5omc3nYNoC",
+      "paper": "https://doi.org/10.1007/s11432-024-4663-2",
       "pdf": "",
       "code": "https://github.com/Jometeorie/KnowledgeSpread",
       "project": ""
@@ -145,7 +145,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:8k81kl-MbHgC",
+      "paper": "https://arxiv.org/abs/2504.10227",
       "pdf": "",
       "code": "https://github.com/universe-sky/probing-then-editing-personality",
       "project": ""
@@ -160,7 +160,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:hqOjcs7Dif8C",
+      "paper": "https://proceedings.mlr.press/v267/ju25a.html",
       "pdf": "",
       "code": "https://github.com/illusionhi/ProbingPrivacy",
       "project": ""
@@ -175,7 +175,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:zYLM7Y9cAGgC",
+      "paper": "https://aclanthology.org/2024.acl-long.486/",
       "pdf": "",
       "code": "https://github.com/Jometeorie/MultiHopShortcuts",
       "project": ""
@@ -190,7 +190,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:UebtZRa9Y70C",
+      "paper": "https://arxiv.org/abs/2502.15153",
       "pdf": "",
       "code": "https://github.com/wbw625/MultiAgentRobustness",
       "project": ""
@@ -206,7 +206,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:Tyk-4Ss8FVUC",
+      "paper": "https://aclanthology.org/2024.lrec-main.722/",
       "pdf": "",
       "code": "https://github.com/Jometeorie/probing_llama",
       "project": ""
@@ -221,7 +221,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:ufrVoPGSRksC",
+      "paper": "https://lib.zjsru.edu.cn/24-6.13-1.pdf",
       "pdf": "",
       "code": "",
       "project": ""
@@ -237,7 +237,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:MXK_kJrjxJIC",
+      "paper": "https://proceedings.mlr.press/v267/fei25a.html",
       "pdf": "",
       "code": "https://github.com/path2generalist/General-Level",
       "project": ""
@@ -252,7 +252,7 @@
     "year": 2023,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:u-x6o8ySG0sC",
+      "paper": "https://aclanthology.org/2023.findings-acl.494/",
       "pdf": "",
       "code": "",
       "project": ""
@@ -268,7 +268,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:roLk4NBRz8UC",
+      "paper": "https://aclanthology.org/2024.emnlp-main.906/",
       "pdf": "",
       "code": "https://github.com/xbmxb/edit_analysis",
       "project": ""
@@ -283,7 +283,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:KlAtU1dfN6UC",
+      "paper": "https://arxiv.org/abs/2506.06800",
       "pdf": "",
       "code": "https://github.com/KalinaEine/PsychologicalPersuasion",
       "project": ""
@@ -298,7 +298,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:eQOLeE2rZwMC",
+      "paper": "https://arxiv.org/abs/2405.13401",
       "pdf": "",
       "code": "https://github.com/CTZhou-byte/TrojanRAG",
       "project": ""
@@ -313,7 +313,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:M3ejUd6NZC8C",
+      "paper": "https://aclanthology.org/2025.findings-acl.348/",
       "pdf": "",
       "code": "https://github.com/Wuzheng02/OS-Kairos",
       "project": ""
@@ -324,11 +324,11 @@
   {
     "title": "Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
     "authors": "Zehao Deng, Tianjie Ju, Zheng Wu, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "",
-    "year": 2025,
+    "venue": "CVPR 2026",
+    "year": 2026,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:qxL8FJ1GzNcC",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Deng_Training_High-Level_Schedulers_with_Execution-Feedback_Reinforcement_Learning_for_Long-Horizon_GUI_CVPR_2026_paper.html",
       "pdf": "",
       "code": "https://github.com/hehehahi4/CES",
       "project": ""
@@ -339,11 +339,11 @@
   {
     "title": "EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection",
     "authors": "Yijie Lu, Tianjie Ju, Manman Zhao, Xinbei Ma, Yuan Guo, ZhuoSheng Zhang",
-    "venue": "",
-    "year": 2025,
+    "venue": "ACL 2026 (Findings)",
+    "year": 2026,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:kNdYIx-mwKoC",
+      "paper": "https://aclanthology.org/2026.findings-acl.1230/",
       "pdf": "",
       "code": "",
       "project": ""
@@ -358,7 +358,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:0EnyYjriUFMC",
+      "paper": "https://arxiv.org/abs/2503.00401",
       "pdf": "",
       "code": "",
       "project": ""
@@ -369,11 +369,11 @@
   {
     "title": "See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles",
     "authors": "Zongru Wu, Rui Mao, Zhiyuan Tian, Pengzhou Cheng, Tianjie Ju, Zheng Wu, Lingzhong Dong, Haiyue Sheng, Zhuosheng Zhang, Gongshen Liu",
-    "venue": "",
-    "year": 2025,
+    "venue": "CVPR 2026",
+    "year": 2026,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:ULOm3_A8WrAC",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2026/html/Wu_See_Think_Act_Teaching_Multimodal_Agents_to_Effectively_Interact_with_CVPR_2026_paper.html",
       "pdf": "",
       "code": "https://github.com/ZrW00/StaR",
       "project": ""
@@ -388,7 +388,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:3fE2CSJIrl8C",
+      "paper": "https://aclanthology.org/2025.findings-emnlp.411/",
       "pdf": "",
       "code": "",
       "project": ""
@@ -403,7 +403,7 @@
     "year": 2025,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:Zph67rFs4hoC",
+      "paper": "https://doi.org/10.1007/s11263-026-02831-1",
       "pdf": "",
       "code": "https://github.com/Eurekaleo/Dr.V",
       "project": ""
@@ -418,7 +418,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:4TOpqqG69KYC",
+      "paper": "https://aclanthology.org/2024.findings-acl.468/",
       "pdf": "",
       "code": "",
       "project": ""
@@ -433,7 +433,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:YsMSGLbcyi4C",
+      "paper": "https://aclanthology.org/2024.lrec-main.186/",
       "pdf": "",
       "code": "",
       "project": ""
@@ -448,7 +448,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&citation_for_view=f8PPcnoAAAAJ:_FxGoFyzp5QC",
+      "paper": "https://arxiv.org/abs/2408.09878",
       "pdf": "",
       "code": "https://github.com/Zhou-CyberSecurity-AI/ATBA",
       "project": ""
@@ -463,7 +463,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:5nxA0vEk-isC",
+      "paper": "https://arxiv.org/abs/2410.13907",
       "pdf": "",
       "code": "https://github.com/dongdongzhaoUP/NSmark",
       "project": ""
@@ -478,7 +478,7 @@
     "year": 2024,
     "kind": "",
     "links": {
-      "paper": "https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=f8PPcnoAAAAJ&pagesize=100&citation_for_view=f8PPcnoAAAAJ:Se3iqnhoufwC",
+      "paper": "https://arxiv.org/abs/2403.15736",
       "pdf": "",
       "code": "",
       "project": ""

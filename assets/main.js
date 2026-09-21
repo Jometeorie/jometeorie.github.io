@@ -273,8 +273,7 @@ async function initPublications() {
   const grid = document.getElementById("pub-grid");
   const countEl = document.getElementById("pub-count");
   const queryEl = document.getElementById("pub-query");
-  const toggleEl = document.getElementById("pub-toggle");
-  if (!grid || !countEl || !queryEl || !toggleEl) return;
+  if (!grid || !countEl || !queryEl) return;
 
   let pubs = [];
   try {
@@ -287,38 +286,18 @@ async function initPublications() {
   }
   // IMPORTANT: keep the original order from data/publications.json.
   // Users can manually reorder items in the JSON array.
-  const DEFAULT_LIMIT = 10;
-  let expanded = false;
-
   function render() {
     const q = norm(queryEl.value);
     const filtered = pubs.filter((p) => matchQuery(p, q));
     countEl.textContent = `${filtered.length} publication${filtered.length === 1 ? "" : "s"}`;
-
-    const shouldLimit = !expanded && !q && filtered.length > DEFAULT_LIMIT;
-    const shown = shouldLimit ? filtered.slice(0, DEFAULT_LIMIT) : filtered;
-    grid.innerHTML = shown.map(buildPubCard).join("");
-
-    if (!q && filtered.length > DEFAULT_LIMIT) {
-      toggleEl.hidden = false;
-      toggleEl.textContent = expanded
-        ? "Show less"
-        : `Show more (${filtered.length - DEFAULT_LIMIT})`;
-    } else {
-      toggleEl.hidden = true;
-    }
+    grid.innerHTML = filtered.map(buildPubCard).join("");
 
     window.__icons?.initIcons?.();
     initGitHubStarBadges(grid);
   }
 
-  toggleEl.addEventListener("click", () => {
-    expanded = !expanded;
-    render();
-  });
-
   queryEl.addEventListener("input", () => {
-    expanded = false;
+    grid.scrollTop = 0;
     render();
   });
   render();
