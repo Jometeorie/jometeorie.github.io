@@ -1,5 +1,21 @@
 [
   {
+    "title": "AI for Games in the Foundation Model Era",
+    "authors": "Meng Luo, Yanlin Li, Hao Li, Hongzhan Lin, Pengfei Zhou, Tianjie Ju, Ran Zhang, Yeying Jin, Mong-Li Lee, Wynne Hsu",
+    "venue": "",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "https://arxiv.org/abs/2609.16679",
+      "huggingface": "https://huggingface.co/papers/2609.16679",
+      "pdf": "",
+      "code": "https://github.com/Eurekaleo/awesome-ai-for-games",
+      "project": "https://eurekaleo.github.io/awesome-ai-for-games/"
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
     "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
     "authors": "Tianjie Ju, Zheng Wu, Yueqing Sun, Yuhan Cui, Bobo Li, Shengqiong Wu, Pengzhou Cheng, Haodong Zhao, Xinbei Ma, Hao Fei, Kunling Li, Mong-Li Lee, Wynne Hsu, Qi Gu, Gongshen Liu, Zhuosheng Zhang",
     "venue": "",

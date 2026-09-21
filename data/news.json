@@ -2,6 +2,15 @@
   {
     "date": "2026.09",
     "icon": "🚀",
+    "text": "We are excited to release AI for Games in the Foundation Model Era, a comprehensive survey of foundation models across the game lifecycle!",
+    "link": {
+      "label": "AI for Games in the Foundation Model Era",
+      "url": "https://arxiv.org/pdf/2609.16679"
+    }
+  },
+  {
+    "date": "2026.09",
+    "icon": "🚀",
     "text": "We are excited to release UrbanGround, a real-scale 3D city modeling sandbox of Hong Kong!",
     "link": {
       "label": "UrbanGround",
