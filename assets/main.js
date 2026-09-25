@@ -309,8 +309,19 @@ function initFooterYear() {
   el.textContent = String(new Date().getFullYear());
 }
 
+function initHeaderOffset() {
+  const header = document.querySelector(".site-header");
+  if (!header) return;
+  const update = () => {
+    document.documentElement.style.setProperty("--header-offset", `${header.offsetHeight + 16}px`);
+  };
+  update();
+  new ResizeObserver(update).observe(header);
+}
+
 function init() {
   window.__icons?.initIcons?.();
+  initHeaderOffset();
   initNews();
   initPublications();
   initFooterYear();

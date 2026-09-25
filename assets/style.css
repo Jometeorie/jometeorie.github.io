@@ -23,7 +23,7 @@ body {
 }
 
 html {
-  scroll-padding-top: 78px;
+  scroll-padding-top: var(--header-offset, 90px);
 }
 
 body {
@@ -89,7 +89,9 @@ code {
 }
 
 .header-inner {
-  height: 62px;
+  min-height: 62px;
+  padding-top: 8px;
+  padding-bottom: 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -101,7 +103,8 @@ code {
   align-items: center;
   gap: 10px;
   font-weight: 650;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
+  flex-shrink: 0;
 }
 
 .brand-mark {
@@ -125,6 +128,7 @@ code {
   gap: 6px;
   flex-wrap: wrap;
   justify-content: flex-end;
+  min-width: 0;
 }
 
 .nav-link {
@@ -136,6 +140,7 @@ code {
   color: var(--muted);
   font-weight: 520;
   font-size: 14px;
+  white-space: nowrap;
 }
 .nav-link:hover {
   background: var(--accent-soft);
@@ -157,7 +162,6 @@ code {
 
 .hero {
   padding: 34px 0 18px;
-  scroll-margin-top: 78px;
 }
 
 .hero-inner {
@@ -276,7 +280,6 @@ code {
 
 .section {
   padding: 18px 0;
-  scroll-margin-top: 78px;
 }
 
 .section-title {
@@ -387,6 +390,66 @@ code {
 
 .news-link:hover {
   text-decoration-color: currentColor;
+}
+
+.experience-list,
+.talks-list {
+  border-top: 1px solid var(--line);
+}
+
+.experience-item,
+.talks-list li {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.experience-item h3,
+.talk-copy h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.experience-item h3 a,
+.talk-copy h3 a {
+  color: #365b8c;
+  text-decoration: underline;
+  text-decoration-color: rgba(54, 91, 140, 0.4);
+  text-underline-offset: 3px;
+}
+
+.experience-item h3 a:hover,
+.talk-copy h3 a:hover {
+  text-decoration-color: currentColor;
+}
+
+.experience-subtitle {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.experience-item p,
+.talk-copy p {
+  margin: 6px 0 0;
+}
+
+.experience-detail,
+.talk-original {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.talks-list {
+  gap: 0;
+}
+
+.talk-copy {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .affiliation-list {
@@ -676,6 +739,13 @@ code {
 
   .nav {
     gap: 2px;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+
+  .nav-link {
+    flex-shrink: 0;
   }
 
   .nav-link {
@@ -691,6 +761,11 @@ code {
 }
 
 @media (max-width: 480px) {
+  .talks-list li {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
   .hero-title {
     font-size: 34px;
   }
