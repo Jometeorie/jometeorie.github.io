@@ -1,5 +1,20 @@
 [
   {
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "authors": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu, Hao Fei, Mong-Li Lee, Wynne Hsu",
+    "venue": "",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.17267",
+      "pdf": "",
+      "code": "https://github.com/LiveGeoWorld/GeoWorld",
+      "project": "https://livegeoworld.github.io/"
+    },
+    "first_author": false,
+    "status_rank": 0
+  },
+  {
     "title": "AI for Games in the Foundation Model Era",
     "authors": "Meng Luo, Yanlin Li, Hao Li, Hongzhan Lin, Pengfei Zhou, Tianjie Ju, Ran Zhang, Yeying Jin, Mong-Li Lee, Wynne Hsu",
     "venue": "",
@@ -29,6 +44,21 @@
       "project": "https://urbanground.github.io/"
     },
     "first_author": true,
+    "status_rank": 0
+  },
+  {
+    "title": "ACTOR: Action-Centered Temporal Organization for Literary Role-Playing Agents",
+    "authors": "Yuxiang Gao, Tianjie Ju†, Zheng Wu, Zongru Wu, Hao Fei",
+    "venue": "",
+    "year": 2026,
+    "kind": "",
+    "links": {
+      "paper": "https://arxiv.org/abs/2611.03184",
+      "pdf": "",
+      "code": "https://github.com/SilentStar233/ACTOR",
+      "project": ""
+    },
+    "first_author": false,
     "status_rank": 0
   },
   {
