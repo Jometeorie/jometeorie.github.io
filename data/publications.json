@@ -12,7 +12,13 @@
       "project": "https://livegeoworld.github.io/"
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/livegeo.webp",
+      "alt": "Overview of LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "width": 1400,
+      "height": 987
+    }
   },
   {
     "title": "AI for Games in the Foundation Model Era",
@@ -28,7 +34,13 @@
       "project": "https://eurekaleo.github.io/awesome-ai-for-games/"
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/ai-for-games.webp",
+      "alt": "Overview of AI for Games in the Foundation Model Era",
+      "width": 1000,
+      "height": 485
+    }
   },
   {
     "title": "UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
@@ -44,7 +56,13 @@
       "project": "https://urbanground.github.io/"
     },
     "first_author": true,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/urbanground.webp",
+      "alt": "Overview of UrbanGround: From Local Perception to Spatial Agency in a Real-Scale City",
+      "width": 1239,
+      "height": 1000
+    }
   },
   {
     "title": "ACTOR: Action-Centered Temporal Organization for Literary Role-Playing Agents",
@@ -59,7 +77,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/actor.webp",
+      "alt": "Overview of ACTOR: Action-Centered Temporal Organization for Literary Role-Playing Agents",
+      "width": 1400,
+      "height": 572
+    }
   },
   {
     "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
@@ -75,7 +99,13 @@
       "project": "https://omni-scientist.github.io/"
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/omniscientist.webp",
+      "alt": "Overview of OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
+      "width": 1400,
+      "height": 817
+    }
   },
   {
     "title": "MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
@@ -90,7 +120,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/mineexplorer.webp",
+      "alt": "Overview of MineExplorer: Evaluating Open-World Exploration of MLLM Agents in Minecraft",
+      "width": 934,
+      "height": 511
+    }
   },
   {
     "title": "First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves",
@@ -105,7 +141,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/first-things-first.webp",
+      "alt": "Overview of First Things First: Teaching LLM-Based Agents to Prioritize Must-Haves before Nice-to-Haves",
+      "width": 926,
+      "height": 676
+    }
   },
   {
     "title": "Causal Probing for Internal Visual Representations in Multimodal Large Language Models",
@@ -120,7 +162,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/causal-probing.webp",
+      "alt": "Overview of Causal Probing for Internal Visual Representations in Multimodal Large Language Models",
+      "width": 1400,
+      "height": 689
+    }
   },
   {
     "title": "Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
@@ -135,7 +183,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/conflictguard.webp",
+      "alt": "Overview of Do GUI Agents Know When Not to Act? Enabling Conflict-Aware Termination for Multimodal GUI Agents",
+      "width": 1400,
+      "height": 764
+    }
   },
   {
     "title": "Reasoning or Rambling? Exploring the Effect of Thinking on Agent Persuasion",
@@ -150,7 +204,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/reasoning-or-rambling.webp",
+      "alt": "Overview of Reasoning or Rambling? Exploring the Effect of Thinking on Agent Persuasion",
+      "width": 953,
+      "height": 521
+    }
   },
   {
     "title": "Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
@@ -166,7 +226,13 @@
     },
     "first_author": true,
     "status_rank": 1,
-    "pinned": true
+    "pinned": true,
+    "image": {
+      "src": "./assets/images/publications/knowledge-spread.webp",
+      "alt": "Overview of Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
+      "width": 1400,
+      "height": 474
+    }
   },
   {
     "title": "Probing Then Editing Response Personality of Large Language Models",
@@ -181,7 +247,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/personality-editing.webp",
+      "alt": "Overview of Probing Then Editing Response Personality of Large Language Models",
+      "width": 930,
+      "height": 507
+    }
   },
   {
     "title": "Watch out Your Album! on the Inadvertent Privacy Memorization in Multi-Modal Large Language Models",
@@ -196,7 +268,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 2
+    "status_rank": 2,
+    "image": {
+      "src": "./assets/images/publications/probing-privacy.webp",
+      "alt": "Overview of Watch out Your Album! on the Inadvertent Privacy Memorization in Multi-Modal Large Language Models",
+      "width": 593,
+      "height": 559
+    }
   },
   {
     "title": "Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models",
@@ -211,7 +289,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/multi-hop-shortcuts.webp",
+      "alt": "Overview of Investigating Multi-Hop Factual Shortcuts in Knowledge Editing of Large Language Models",
+      "width": 546,
+      "height": 432
+    }
   },
   {
     "title": "Investigating the Adaptive Robustness with Knowledge Conflicts in LLM-Based Multi-Agent Systems",
@@ -227,7 +311,13 @@
     },
     "first_author": true,
     "status_rank": 0,
-    "order_hint": 80
+    "order_hint": 80,
+    "image": {
+      "src": "./assets/images/publications/multi-agent-robustness.webp",
+      "alt": "Overview of Investigating the Adaptive Robustness with Knowledge Conflicts in LLM-Based Multi-Agent Systems",
+      "width": 1091,
+      "height": 564
+    }
   },
   {
     "title": "How Large Language Models Encode Context Knowledge? a Layer-Wise Probing Study",
@@ -242,7 +332,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/context-knowledge.webp",
+      "alt": "Overview of How Large Language Models Encode Context Knowledge? a Layer-Wise Probing Study",
+      "width": 1133,
+      "height": 441
+    }
   },
   {
     "title": "自然语言处理中的探针可解释方法综述",
@@ -258,7 +354,13 @@
     },
     "first_author": false,
     "status_rank": 1,
-    "order_hint": 60
+    "order_hint": 60,
+    "image": {
+      "src": "./assets/images/publications/probing-survey.webp",
+      "alt": "Overview of 自然语言处理中的探针可解释方法综述",
+      "width": 577,
+      "height": 466
+    }
   },
   {
     "title": "On Path to Multimodal Generalist: General-Level and General-Bench",
@@ -273,7 +375,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/multimodal-generalist.webp",
+      "alt": "Overview of On Path to Multimodal Generalist: General-Level and General-Bench",
+      "width": 1000,
+      "height": 667
+    }
   },
   {
     "title": "Is Continuous Prompt a Combination of Discrete Prompts? Towards a Novel View for Interpreting Continuous Prompts",
@@ -289,7 +397,13 @@
     },
     "first_author": true,
     "status_rank": 1,
-    "order_hint": 70
+    "order_hint": 70,
+    "image": {
+      "src": "./assets/images/publications/continuous-prompts.webp",
+      "alt": "Overview of Is Continuous Prompt a Combination of Discrete Prompts? Towards a Novel View for Interpreting Continuous Prompts",
+      "width": 532,
+      "height": 408
+    }
   },
   {
     "title": "On the Robustness of Editing Large Language Models",
@@ -304,7 +418,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/editing-robustness.webp",
+      "alt": "Overview of On the Robustness of Editing Large Language Models",
+      "width": 1142,
+      "height": 382
+    }
   },
   {
     "title": "On the Adaptive Psychological Persuasion of Large Language Models",
@@ -319,7 +439,13 @@
       "project": ""
     },
     "first_author": true,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/psychological-persuasion.webp",
+      "alt": "Overview of On the Adaptive Psychological Persuasion of Large Language Models",
+      "width": 938,
+      "height": 400
+    }
   },
   {
     "title": "Trojanrag: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
@@ -334,7 +460,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/trojanrag.webp",
+      "alt": "Overview of Trojanrag: Retrieval-Augmented Generation Can Be Backdoor Driver in Large Language Models",
+      "width": 1400,
+      "height": 552
+    }
   },
   {
     "title": "Os-Kairos: Adaptive Interaction for Mllm-Powered Gui Agents",
@@ -349,7 +481,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/os-kairos.webp",
+      "alt": "Overview of Os-Kairos: Adaptive Interaction for Mllm-Powered Gui Agents",
+      "width": 1133,
+      "height": 613
+    }
   },
   {
     "title": "Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
@@ -364,7 +502,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/ces.webp",
+      "alt": "Overview of Training High-Level Schedulers with Execution-Feedback Reinforcement Learning for Long-Horizon GUI Automation",
+      "width": 1234,
+      "height": 539
+    }
   },
   {
     "title": "EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection",
@@ -379,7 +523,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/eva.webp",
+      "alt": "Overview of EVA: Red-Teaming GUI Agents via Evolving Indirect Prompt Injection",
+      "width": 1085,
+      "height": 469
+    }
   },
   {
     "title": "Smoothing Grounding and Reasoning for Mllm-Powered Gui Agents with Query-Oriented Pivot Tasks",
@@ -394,7 +544,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/query-oriented-pivot.webp",
+      "alt": "Overview of Smoothing Grounding and Reasoning for Mllm-Powered Gui Agents with Query-Oriented Pivot Tasks",
+      "width": 849,
+      "height": 626
+    }
   },
   {
     "title": "See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles",
@@ -409,7 +565,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/star.webp",
+      "alt": "Overview of See, Think, Act: Teaching Multimodal Agents to Effectively Interact with GUI by Identifying Toggles",
+      "width": 1241,
+      "height": 378
+    }
   },
   {
     "title": "Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents",
@@ -424,7 +586,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/agentghost.webp",
+      "alt": "Overview of Hidden Ghost Hand: Unveiling Backdoor Vulnerabilities in MLLM-Powered Mobile GUI Agents",
+      "width": 1142,
+      "height": 375
+    }
   },
   {
     "title": "Dr. V: a Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding",
@@ -439,7 +607,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/dr-v.webp",
+      "alt": "Overview of Dr. V: a Hierarchical Perception-Temporal-Cognition Framework to Diagnose Video Hallucination by Fine-Grained Spatial-Temporal Grounding",
+      "width": 996,
+      "height": 283
+    }
   },
   {
     "title": "Uor: Universal Backdoor Attacks on Pre-Trained Language Models",
@@ -454,7 +628,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/uor.webp",
+      "alt": "Overview of Uor: Universal Backdoor Attacks on Pre-Trained Language Models",
+      "width": 1123,
+      "height": 321
+    }
   },
   {
     "title": "Backdoor NLP Models via AI-Generated Text",
@@ -469,7 +649,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 1
+    "status_rank": 1,
+    "image": {
+      "src": "./assets/images/publications/ai-generated-backdoors.webp",
+      "alt": "Overview of Backdoor NLP Models via AI-Generated Text",
+      "width": 1017,
+      "height": 464
+    }
   },
   {
     "title": "Transferring Backdoors between Large Language Models by Knowledge Distillation",
@@ -484,7 +670,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/atba.webp",
+      "alt": "Overview of Transferring Backdoors between Large Language Models by Knowledge Distillation",
+      "width": 1315,
+      "height": 303
+    }
   },
   {
     "title": "NSmark: Null Space Based Black-Box Watermarking Defense Framework for Language Models",
@@ -499,7 +691,13 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/nsmark.webp",
+      "alt": "Overview of NSmark: Null Space Based Black-Box Watermarking Defense Framework for Language Models",
+      "width": 874,
+      "height": 230
+    }
   },
   {
     "title": "General LLMs as Instructors for Domain-Specific LLMs: a Sequential Fusion Method to Integrate Extraction and Editing",
@@ -514,6 +712,12 @@
       "project": ""
     },
     "first_author": false,
-    "status_rank": 0
+    "status_rank": 0,
+    "image": {
+      "src": "./assets/images/publications/sequential-fusion.webp",
+      "alt": "Overview of General LLMs as Instructors for Domain-Specific LLMs: a Sequential Fusion Method to Integrate Extraction and Editing",
+      "width": 1119,
+      "height": 606
+    }
   }
 ]

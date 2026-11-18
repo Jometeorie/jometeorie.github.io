@@ -188,6 +188,14 @@ function buildPubCard(pub) {
   const year = escapeHTML(pub.year || "");
   const kind = escapeHTML(pub.kind || "");
   const yearAfterProject = !venue && year && Boolean(pub.links?.project);
+  const image = pub.image;
+  const figure = image ? `
+    <a class="pub-figure" href="${escapeAttr(image.src)}" data-publication-figure
+       data-title="${title}" aria-label="Enlarge overview figure: ${title}">
+      <img src="${escapeAttr(image.src)}" alt="${escapeAttr(image.alt)}"
+           width="${Number(image.width)}" height="${Number(image.height)}"
+           loading="lazy" decoding="async" />
+    </a>` : "";
 
   const tags = [];
   if (kind) tags.push(`<span class="tag">${kind}</span>`);
@@ -248,16 +256,18 @@ function buildPubCard(pub) {
 
   return `
     <article class="pub-card">
-      <div class="pub-top">
-        <h3 class="pub-title">${title}</h3>
-        <div class="pub-meta">
-          <span>${authors}</span>
+      ${figure}
+      <div class="pub-content">
+        <div class="pub-top">
+          <h3 class="pub-title">${title}</h3>
+          <div class="pub-meta">
+            <span>${authors}</span>
+          </div>
         </div>
-      </div>
-
-      <div class="pub-bottom">
-        ${tags.length ? `<div class="pub-tags">${tags.join("")}</div>` : ""}
-        ${links.length ? `<div class="pub-links">${links.join("")}</div>` : ""}
+        <div class="pub-bottom">
+          ${tags.length ? `<div class="pub-tags">${tags.join("")}</div>` : ""}
+          ${links.length ? `<div class="pub-links">${links.join("")}</div>` : ""}
+        </div>
       </div>
     </article>
   `;
@@ -296,11 +306,34 @@ async function initPublications() {
     initGitHubStarBadges(grid);
   }
 
-  queryEl.addEventListener("input", () => {
-    grid.scrollTop = 0;
-    render();
-  });
+  queryEl.addEventListener("input", render);
   render();
+}
+
+function initPublicationFigures() {
+  const grid = document.getElementById("pub-grid");
+  const dialog = document.getElementById("publication-figure-dialog");
+  if (!grid || !dialog) return;
+
+  const image = dialog.querySelector(".figure-dialog-image");
+  const title = document.getElementById("publication-figure-title");
+  grid.addEventListener("click", (event) => {
+    const link = event.target.closest("[data-publication-figure]");
+    if (!link || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    image.src = link.href;
+    image.alt = link.querySelector("img").alt;
+    title.textContent = link.dataset.title;
+    dialog.showModal();
+  });
+
+  dialog.querySelector(".figure-dialog-close").addEventListener("click", () => dialog.close());
+  dialog.addEventListener("click", (event) => {
+    if (event.target !== dialog) return;
+    const bounds = dialog.getBoundingClientRect();
+    if (event.clientX < bounds.left || event.clientX > bounds.right ||
+        event.clientY < bounds.top || event.clientY > bounds.bottom) dialog.close();
+  });
 }
 
 function initFooterYear() {
@@ -324,6 +357,7 @@ function init() {
   initHeaderOffset();
   initNews();
   initPublications();
+  initPublicationFigures();
   initFooterYear();
 }
 
