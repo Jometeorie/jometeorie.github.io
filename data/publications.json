@@ -228,10 +228,10 @@
     "status_rank": 1,
     "pinned": true,
     "image": {
-      "src": "./assets/images/publications/knowledge-spread.webp",
-      "alt": "Overview of Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities",
-      "width": 1400,
-      "height": 474
+      "src": "./assets/images/publications/knowledge-spread-journal.webp",
+      "alt": "Journal Figure 1: overview of multi-agent manipulated knowledge spread, the two-stage attack, and defense strategies",
+      "width": 2000,
+      "height": 1178
     }
   },
   {

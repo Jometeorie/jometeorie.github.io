@@ -86,11 +86,12 @@ Local image: `reasoning-or-rambling.webp` (953 × 521).
 
 ## Flooding Spread of Manipulated Knowledge in Llm-Based Multi-Agent Communities
 
-Local image: `knowledge-spread.webp` (1400 × 474).
+Local image: `knowledge-spread-journal.webp` (2000 × 1178).
 
-- Source: https://raw.githubusercontent.com/Jometeorie/KnowledgeSpread/main/figures/introduction.png
-- Figure: Project overview
-- Description: Overview of manipulated knowledge spreading through LLM-based multi-agent communities.
+- Source: https://scis.scichina.com/en/2026/172103.pdf
+- Article DOI: https://doi.org/10.1007/s11432-024-4663-2
+- Figure: Journal Figure 1, page 2 (version of record, Science China Information Sciences, July 2026).
+- Description: Complete four-panel overview of multi-agent manipulated knowledge spread and defenses: attacker goals, knowledge propagation and persistence, the two-stage attack, and defense strategies. Extracted directly from the journal PDF's embedded image.
 
 ## Probing Then Editing Response Personality of Large Language Models
 
