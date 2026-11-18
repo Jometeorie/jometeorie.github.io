@@ -46,7 +46,7 @@
     <meta name="twitter:image:alt" content="Portrait of Tianjie Ju (鞠天杰)" />
 
     <link rel="icon" href="./assets/favicon.svg?v=20260825-tj" type="image/svg+xml" />
-    <link rel="stylesheet" href="./assets/style.css?v=20261118-compact" />
+    <link rel="stylesheet" href="./assets/style.css?v=20261118-sidebar" />
 
     <script type="application/ld+json">
       {
@@ -180,385 +180,378 @@
       </div>
     </header>
 
-    <main id="content" class="site-main">
-      <section id="home" class="hero">
-        <div class="container hero-inner">
-          <div class="hero-left">
-            <h1 class="hero-title">
-              Tianjie Ju <span class="hero-name-cn" lang="zh-CN">鞠天杰</span>
-            </h1>
-            <p class="hero-subtitle">Postdoctoral Researcher at National University of Singapore (NUS)</p>
-
-            <div class="meta-line">
-              <span class="pill">
-                <span class="pill-icon" aria-hidden="true" data-icon="pin"></span>
-                Singapore
-              </span>
-            </div>
-
-            <div class="links">
-              <a class="link-btn" href="mailto:jutianjie@nus.edu.sg">
-                <span class="btn-icon" aria-hidden="true" data-icon="mail"></span>
-                Email
-              </a>
-              <a
-                class="link-btn"
-                href="https://scholar.google.com/citations?user=f8PPcnoAAAAJ&amp;hl=zh-CN"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <span class="btn-icon" aria-hidden="true" data-icon="scholar"></span>
-                Google Scholar
-              </a>
-              <a class="link-btn" href="https://github.com/Jometeorie" target="_blank" rel="noreferrer">
-                GitHub
-              </a>
-            </div>
-
-          </div>
-
-          <div class="hero-right" aria-hidden="true">
-            <div class="avatar-card">
-              <picture>
-                <source srcset="./assets/images/IMG_4121.HEIC" type="image/heic" />
-                <img
-                  class="avatar-photo"
-                  src="./assets/images/IMG_4121.jpg"
-                  alt="Portrait of Tianjie Ju"
-                  loading="lazy"
-                />
-              </picture>
-            </div>
+    <main id="content" class="site-main container page-layout">
+      <aside id="home" class="profile-sidebar" aria-labelledby="profile-name">
+        <picture class="profile-portrait">
+          <source srcset="./assets/images/IMG_4121.HEIC" type="image/heic" />
+          <img
+            class="profile-photo"
+            src="./assets/images/IMG_4121.jpg"
+            alt="Portrait of Tianjie Ju"
+            width="900"
+            height="675"
+            fetchpriority="high"
+          />
+        </picture>
+        <div class="profile-copy">
+          <h1 id="profile-name" class="profile-name">
+            Tianjie Ju <span class="profile-name-cn" lang="zh-CN">鞠天杰</span>
+          </h1>
+          <p class="profile-role">Postdoctoral Researcher</p>
+          <p class="profile-institution">National University of Singapore (NUS)</p>
+          <p class="profile-location">
+            <span class="pill-icon" aria-hidden="true" data-icon="pin"></span>
+            Singapore
+          </p>
+          <div class="profile-links" aria-label="Contact and profiles">
+            <a href="mailto:jutianjie@nus.edu.sg">
+              <span class="btn-icon" aria-hidden="true" data-icon="mail"></span>
+              jutianjie@nus.edu.sg
+            </a>
+            <a
+              href="https://scholar.google.com/citations?user=f8PPcnoAAAAJ&amp;hl=zh-CN"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span class="btn-icon" aria-hidden="true" data-icon="scholar"></span>
+              Google Scholar
+            </a>
+            <a href="https://github.com/Jometeorie" target="_blank" rel="noreferrer">
+              <span class="btn-icon" aria-hidden="true" data-icon="github"></span>
+              GitHub
+            </a>
           </div>
         </div>
-      </section>
+      </aside>
 
-      <section id="about" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="user"></span>
-            <h2>About</h2>
-          </div>
-          <div class="card">
-            <p>
-              I am a postdoctoral researcher at the CTIC Lab, National University of Singapore
-              (NUS), advised by Prof.
-              <a href="https://www.comp.nus.edu.sg/~leeml/" target="_blank" rel="noreferrer">Mong-Li Lee</a>
-              and Prof.
-              <a href="https://www.comp.nus.edu.sg/~whsu/" target="_blank" rel="noreferrer">Wynne Hsu</a>,
-              and co-advised by Dr.
-              <a href="https://haofei.vip/" target="_blank" rel="noreferrer">Hao Fei</a>.
-              I received my Ph.D. degree in Computer Science from Shanghai Jiao Tong University
-              (SJTU) in June 2026, advised by Prof.
-              <a
-                href="https://www.cs.sjtu.edu.cn/jiaoshiml/liugongshen.html"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Gongshen Liu
-              </a>
-              and Assoc. Prof.
-              <a href="https://bcmi.sjtu.edu.cn/home/zhangzs/" target="_blank" rel="noreferrer"
-                >Zhuosheng Zhang</a>.
-            </p>
-            <p>
-              My research interests include MLLM Agent, Geospatial Reasoning, World Modeling, and
-              AI Scientist.
-            </p>
-            <p class="collaborator-callout">
-              <span class="callout-icon" aria-hidden="true">📣</span>
-              <span>
-                <strong>Prospective collaborators:</strong> Feel free to email me to discuss or
-                collaborate on any research topic that interests you.
-                <span lang="zh-CN">欢迎邮件联系我，讨论或合作任何你感兴趣的课题。</span>
-              </span>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="news" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="news"></span>
-            <h2>News</h2>
-          </div>
-          <div class="card news-scroll" tabindex="0" aria-label="Scrollable news list">
-            <ul class="list" id="news-list">
-              <li class="muted small">Loading…</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      <section id="publications" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="paper"></span>
-            <h2>Selected Publications</h2>
-          </div>
-
-          <div class="toolbar">
-            <div class="toolbar-left">
-              <span class="muted small" id="pub-count">Loading…</span>
+      <div class="page-content">
+        <section id="about" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="user"></span>
+              <h2>About</h2>
             </div>
-            <div class="toolbar-right">
-              <label class="sr-only" for="pub-query">Search publications</label>
-              <input id="pub-query" class="input" placeholder="Search title / authors / venue…" />
-            </div>
-          </div>
-
-          <div
-            class="publication-list"
-            id="pub-grid"
-            aria-label="Publication list"
-            aria-live="polite"
-          ></div>
-
-          <p class="muted small publication-note">* indicates equal contributions. † indicates corresponding author.</p>
-        </div>
-      </section>
-
-      <section id="projects" class="section" aria-labelledby="projects-title">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="code"></span>
-            <h2 id="projects-title">Project Experience</h2>
-          </div>
-          <div class="experience-list">
-            <article class="experience-item">
-              <h3>
-                <a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noopener noreferrer">Dive into LLMs</a>
-                <span class="experience-subtitle" lang="zh-CN">动手学大模型</span>
-              </h3>
+            <div class="card">
               <p>
-                Contributor to a free, open-source practical tutorial series developed from
-                Shanghai Jiao Tong University course materials, covering LLM fine-tuning,
-                inference, deployment, and security.
+                I am a postdoctoral researcher at the CTIC Lab, National University of Singapore
+                (NUS), advised by Prof.
+                <a href="https://www.comp.nus.edu.sg/~leeml/" target="_blank" rel="noreferrer">Mong-Li Lee</a>
+                and Prof.
+                <a href="https://www.comp.nus.edu.sg/~whsu/" target="_blank" rel="noreferrer">Wynne Hsu</a>,
+                and co-advised by Dr.
+                <a href="https://haofei.vip/" target="_blank" rel="noreferrer">Hao Fei</a>.
+                I received my Ph.D. degree in Computer Science from Shanghai Jiao Tong University
+                (SJTU) in June 2026, advised by Prof.
+                <a
+                  href="https://www.cs.sjtu.edu.cn/jiaoshiml/liugongshen.html"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Gongshen Liu
+                </a>
+                and Assoc. Prof.
+                <a href="https://bcmi.sjtu.edu.cn/home/zhangzs/" target="_blank" rel="noreferrer"
+                  >Zhuosheng Zhang</a>.
               </p>
-              <p class="experience-detail"><strong>55,192 GitHub stars</strong> as of September 24, 2026.</p>
-            </article>
-            <article class="experience-item">
-              <h3>
-                <a href="https://www.hiascend.com/edu/growth/lm-development#classification-floor-1" target="_blank" rel="noopener noreferrer">Ascend LLM Development Lifecycle Course</a>
-                <span class="experience-subtitle" lang="zh-CN">昇腾《大模型开发全流程》课程</span>
-              </h3>
               <p>
-                Contributed to a free course series built on the Ascend hardware and software
-                ecosystem, responsible for <strong>six lessons on LLM inference</strong>.
-                The series was supported by Huawei's Ascend community and published on its website.
+                My research interests include MLLM Agent, Geospatial Reasoning, World Modeling, and
+                AI Scientist.
               </p>
-            </article>
+              <p class="collaborator-callout">
+                <span class="callout-icon" aria-hidden="true">📣</span>
+                <span>
+                  <strong>Prospective collaborators:</strong> Feel free to email me to discuss or
+                  collaborate on any research topic that interests you.
+                  <span lang="zh-CN">欢迎邮件联系我，讨论或合作任何你感兴趣的课题。</span>
+                </span>
+              </p>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="talks" class="section" aria-labelledby="talks-title">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="talk"></span>
-            <h2 id="talks-title">Talks</h2>
+        <section id="news" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="news"></span>
+              <h2>News</h2>
+            </div>
+            <div class="card news-scroll" tabindex="0" aria-label="Scrollable news list">
+              <ul class="list" id="news-list">
+                <li class="muted small">Loading…</li>
+              </ul>
+            </div>
           </div>
-          <ul class="list talks-list">
-            <li>
-              <time class="date" datetime="2026-09">Sep 2026</time>
-              <div class="talk-copy">
-                <h3><a href="https://www.bilibili.com/video/BV1yKYJ61EdY/" target="_blank" rel="noopener noreferrer">Large Models in Real 3D Cities: Can Local Spatial Perception Represent Global Spatial Intelligence?</a></h3>
-                <p class="talk-original" lang="zh-CN">大模型走向真实3D城市，局部空间感知能否代表全局空间智能？</p>
-                <p class="experience-detail">Speaker, NICE Seminar</p>
-              </div>
-            </li>
-            <li>
-              <time class="date" datetime="2025-12">Dec 2025</time>
-              <div class="talk-copy">
-                <h3><a href="https://www.bilibili.com/video/BV1kXvBBPE2M/" target="_blank" rel="noopener noreferrer">37th MLNLP Community Academic Seminar</a></h3>
-                <p class="experience-detail">Host</p>
-              </div>
-            </li>
-            <li>
-              <time class="date" datetime="2025-06">Jun 2025</time>
-              <div class="talk-copy">
-                <h3><a href="https://www.bilibili.com/video/BV18dNszSER6/" target="_blank" rel="noopener noreferrer">ICML &amp; ACL 2025 Paper Sharing on Security and Trustworthiness</a></h3>
-                <p class="experience-detail">Speaker, NICE Seminar</p>
-              </div>
-            </li>
-            <li>
-              <time class="date" datetime="2024-10">Oct 2024</time>
-              <div class="talk-copy">
-                <h3><a href="https://mllm2024.github.io/ACM-MM2024/" target="_blank" rel="noopener noreferrer">MLLM Tutorial, Part 6: Multimodal Reasoning</a></h3>
-                <p class="experience-detail">Speaker, ACM MM 2024</p>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
+        </section>
 
-      <section id="education" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="cap"></span>
-            <h2>Education</h2>
+        <section id="publications" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="paper"></span>
+              <h2>Selected Publications</h2>
+            </div>
+
+            <div class="toolbar">
+              <div class="toolbar-left">
+                <span class="muted small" id="pub-count">Loading…</span>
+              </div>
+              <div class="toolbar-right">
+                <label class="sr-only" for="pub-query">Search publications</label>
+                <input id="pub-query" class="input" placeholder="Search title / authors / venue…" />
+              </div>
+            </div>
+
+            <div
+              class="publication-list"
+              id="pub-grid"
+              aria-label="Publication list"
+              aria-live="polite"
+            ></div>
+
+            <p class="muted small publication-note">* indicates equal contributions. † indicates corresponding author.</p>
           </div>
-          <div class="card">
-            <ul class="list">
+        </section>
+
+        <section id="projects" class="section" aria-labelledby="projects-title">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="code"></span>
+              <h2 id="projects-title">Project Experience</h2>
+            </div>
+            <div class="experience-list">
+              <article class="experience-item">
+                <h3>
+                  <a href="https://github.com/Lordog/dive-into-llms" target="_blank" rel="noopener noreferrer">Dive into LLMs</a>
+                  <span class="experience-subtitle" lang="zh-CN">动手学大模型</span>
+                </h3>
+                <p>
+                  Contributor to a free, open-source practical tutorial series developed from
+                  Shanghai Jiao Tong University course materials, covering LLM fine-tuning,
+                  inference, deployment, and security.
+                </p>
+                <p class="experience-detail"><strong>55,192 GitHub stars</strong> as of September 24, 2026.</p>
+              </article>
+              <article class="experience-item">
+                <h3>
+                  <a href="https://www.hiascend.com/edu/growth/lm-development#classification-floor-1" target="_blank" rel="noopener noreferrer">Ascend LLM Development Lifecycle Course</a>
+                  <span class="experience-subtitle" lang="zh-CN">昇腾《大模型开发全流程》课程</span>
+                </h3>
+                <p>
+                  Contributed to a free course series built on the Ascend hardware and software
+                  ecosystem, responsible for <strong>six lessons on LLM inference</strong>.
+                  The series was supported by Huawei's Ascend community and published on its website.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="talks" class="section" aria-labelledby="talks-title">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="talk"></span>
+              <h2 id="talks-title">Talks</h2>
+            </div>
+            <ul class="list talks-list">
               <li>
-                <span class="date">2021 - 2026</span>
-                <span class="text">Ph.D., School of Computer Science, SJTU (degree conferred June 2026)</span>
+                <time class="date" datetime="2026-09">Sep 2026</time>
+                <div class="talk-copy">
+                  <h3><a href="https://www.bilibili.com/video/BV1yKYJ61EdY/" target="_blank" rel="noopener noreferrer">Large Models in Real 3D Cities: Can Local Spatial Perception Represent Global Spatial Intelligence?</a></h3>
+                  <p class="talk-original" lang="zh-CN">大模型走向真实3D城市，局部空间感知能否代表全局空间智能？</p>
+                  <p class="experience-detail">Speaker, NICE Seminar</p>
+                </div>
               </li>
               <li>
-                <span class="date">2024 - 2025</span>
-                <span class="text">Visiting Student, NUS CTIC</span>
+                <time class="date" datetime="2025-12">Dec 2025</time>
+                <div class="talk-copy">
+                  <h3><a href="https://www.bilibili.com/video/BV1kXvBBPE2M/" target="_blank" rel="noopener noreferrer">37th MLNLP Community Academic Seminar</a></h3>
+                  <p class="experience-detail">Host</p>
+                </div>
               </li>
               <li>
-                <span class="date">2017 - 2021</span>
-                <span class="text">B.E., School of Computer Science, XDU</span>
+                <time class="date" datetime="2025-06">Jun 2025</time>
+                <div class="talk-copy">
+                  <h3><a href="https://www.bilibili.com/video/BV18dNszSER6/" target="_blank" rel="noopener noreferrer">ICML &amp; ACL 2025 Paper Sharing on Security and Trustworthiness</a></h3>
+                  <p class="experience-detail">Speaker, NICE Seminar</p>
+                </div>
+              </li>
+              <li>
+                <time class="date" datetime="2024-10">Oct 2024</time>
+                <div class="talk-copy">
+                  <h3><a href="https://mllm2024.github.io/ACM-MM2024/" target="_blank" rel="noopener noreferrer">MLLM Tutorial, Part 6: Multimodal Reasoning</a></h3>
+                  <p class="experience-detail">Speaker, ACM MM 2024</p>
+                </div>
               </li>
             </ul>
           </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="affiliation" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="building"></span>
-            <h2>Affiliation</h2>
+        <section id="education" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="cap"></span>
+              <h2>Education</h2>
+            </div>
+            <div class="card">
+              <ul class="list">
+                <li>
+                  <span class="date">2021 - 2026</span>
+                  <span class="text">Ph.D., School of Computer Science, SJTU (degree conferred June 2026)</span>
+                </li>
+                <li>
+                  <span class="date">2024 - 2025</span>
+                  <span class="text">Visiting Student, NUS CTIC</span>
+                </li>
+                <li>
+                  <span class="date">2017 - 2021</span>
+                  <span class="text">B.E., School of Computer Science, XDU</span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="card">
-            <ul class="affiliation-list">
-              <li>
-                <span class="affiliation-logo">
-                  <img
-                    src="./assets/images/affiliations/nus.png"
-                    alt="National University of Singapore logo"
-                    loading="lazy"
-                  />
-                </span>
-                <span class="affiliation-copy">
-                  <a class="affiliation-name" href="https://www.nus.edu.sg/" target="_blank" rel="noreferrer">
-                    National University of Singapore (NUS)
-                  </a>
-                  <span>Postdoctoral Researcher, CTIC Lab · September 2026–</span>
-                </span>
-              </li>
-              <li>
-                <span class="affiliation-logo">
-                  <img
-                    src="./assets/images/affiliations/longcat.png"
-                    alt="LongCat logo"
-                    loading="lazy"
-                  />
-                </span>
-                <span class="affiliation-copy">
-                  <a
-                    class="affiliation-name"
-                    href="https://github.com/meituan-longcat"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    LongCat
-                  </a>
-                  <span>Research Intern · LongCat Team · 2026</span>
-                </span>
-              </li>
-              <li>
-                <span class="affiliation-logo">
-                  <img
-                    src="./assets/images/affiliations/sjtu.png"
-                    alt="Shanghai Jiao Tong University logo"
-                    loading="lazy"
-                  />
-                </span>
-                <span class="affiliation-copy">
-                  <a class="affiliation-name" href="https://www.sjtu.edu.cn/" target="_blank" rel="noreferrer">
-                    Shanghai Jiao Tong University (SJTU)
-                  </a>
-                  <span>Ph.D., School of Computer Science · 2021–2026</span>
-                </span>
-              </li>
-              <li>
-                <span class="affiliation-logo affiliation-logo-xidian">
-                  <img
-                    src="./assets/images/affiliations/xidian.png"
-                    alt="Xidian University logo"
-                    loading="lazy"
-                  />
-                </span>
-                <span class="affiliation-copy">
-                  <a class="affiliation-name" href="https://en.xidian.edu.cn/" target="_blank" rel="noreferrer">
-                    Xidian University (XDU)
-                  </a>
-                  <span>B.E., School of Computer Science · 2017–2021</span>
-                </span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="awards" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="award"></span>
-            <h2>Awards</h2>
+        <section id="affiliation" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="building"></span>
+              <h2>Affiliation</h2>
+            </div>
+            <div class="card">
+              <ul class="affiliation-list">
+                <li>
+                  <span class="affiliation-logo">
+                    <img
+                      src="./assets/images/affiliations/nus.png"
+                      alt="National University of Singapore logo"
+                      loading="lazy"
+                    />
+                  </span>
+                  <span class="affiliation-copy">
+                    <a class="affiliation-name" href="https://www.nus.edu.sg/" target="_blank" rel="noreferrer">
+                      National University of Singapore (NUS)
+                    </a>
+                    <span>Postdoctoral Researcher, CTIC Lab · September 2026–</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="affiliation-logo">
+                    <img
+                      src="./assets/images/affiliations/longcat.png"
+                      alt="LongCat logo"
+                      loading="lazy"
+                    />
+                  </span>
+                  <span class="affiliation-copy">
+                    <a
+                      class="affiliation-name"
+                      href="https://github.com/meituan-longcat"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      LongCat
+                    </a>
+                    <span>Research Intern · LongCat Team · 2026</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="affiliation-logo">
+                    <img
+                      src="./assets/images/affiliations/sjtu.png"
+                      alt="Shanghai Jiao Tong University logo"
+                      loading="lazy"
+                    />
+                  </span>
+                  <span class="affiliation-copy">
+                    <a class="affiliation-name" href="https://www.sjtu.edu.cn/" target="_blank" rel="noreferrer">
+                      Shanghai Jiao Tong University (SJTU)
+                    </a>
+                    <span>Ph.D., School of Computer Science · 2021–2026</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="affiliation-logo affiliation-logo-xidian">
+                    <img
+                      src="./assets/images/affiliations/xidian.png"
+                      alt="Xidian University logo"
+                      loading="lazy"
+                    />
+                  </span>
+                  <span class="affiliation-copy">
+                    <a class="affiliation-name" href="https://en.xidian.edu.cn/" target="_blank" rel="noreferrer">
+                      Xidian University (XDU)
+                    </a>
+                    <span>B.E., School of Computer Science · 2017–2021</span>
+                  </span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="card">
-            <ul class="list">
-              <li>
-                <span class="date">2026</span>
-                <span class="text">
-                  <a href="https://www.cipsc.org.cn/Notification/info_itemid_5611.html" target="_blank" rel="noopener noreferrer">Doctoral Dissertation Incentive Program (Nomination)</a>,
-                  Chinese Information Processing Society of China (CIPS)
-                  <span lang="zh-CN">（中国中文信息学会博士学位论文激励计划提名）</span>
-                </span>
-              </li>
-              <li>
-                <span class="date">2024</span>
-                <span class="text">National Scholarship (国家奖学金), SJTU</span>
-              </li>
-              <li>
-                <span class="date">2021</span>
-                <span class="text">National Scholarship (国家奖学金), XDU</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <section id="services" class="section">
-        <div class="container">
-          <div class="section-title">
-            <span class="section-icon" aria-hidden="true" data-icon="service"></span>
-            <h2>Service</h2>
+        <section id="awards" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="award"></span>
+              <h2>Awards</h2>
+            </div>
+            <div class="card">
+              <ul class="list">
+                <li>
+                  <span class="date">2026</span>
+                  <span class="text">
+                    <a href="https://www.cipsc.org.cn/Notification/info_itemid_5611.html" target="_blank" rel="noopener noreferrer">Doctoral Dissertation Incentive Program (Nomination)</a>,
+                    Chinese Information Processing Society of China (CIPS)
+                    <span lang="zh-CN">（中国中文信息学会博士学位论文激励计划提名）</span>
+                  </span>
+                </li>
+                <li>
+                  <span class="date">2024</span>
+                  <span class="text">National Scholarship (国家奖学金), SJTU</span>
+                </li>
+                <li>
+                  <span class="date">2021</span>
+                  <span class="text">National Scholarship (国家奖学金), XDU</span>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="card">
-            <ul class="list">
-              <li>
-                <span class="date">Area Chair</span>
-                <span class="text">ACL ARR (March 2026)</span>
-              </li>
-              <li>
-                <span class="date">Reviewer</span>
-                <span class="text">
-                  ACL (2024, 2025, 2026), EMNLP (2025, 2026), ICML (2025, 2026), NeurIPS (2025),
-                  ICLR (2026), CVPR (2026), COLM (2025), SCIS (2025), COLING (2024),
-                  Neurocomputing (2025, 2026)
-                </span>
-              </li>
-              <li>
-                <span class="date">Volunteer</span>
-                <span class="text">ACL (2024)</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
+        </section>
 
-      <footer class="site-footer">
-        <div class="container footer-inner">
-          <div class="muted small">© <span id="year"></span> Tianjie Ju</div>
-        </div>
-      </footer>
+        <section id="services" class="section">
+          <div class="container">
+            <div class="section-title">
+              <span class="section-icon" aria-hidden="true" data-icon="service"></span>
+              <h2>Service</h2>
+            </div>
+            <div class="card">
+              <ul class="list">
+                <li>
+                  <span class="date">Area Chair</span>
+                  <span class="text">ACL ARR (March 2026)</span>
+                </li>
+                <li>
+                  <span class="date">Reviewer</span>
+                  <span class="text">
+                    ACL (2024, 2025, 2026), EMNLP (2025, 2026), ICML (2025, 2026), NeurIPS (2025),
+                    ICLR (2026), CVPR (2026), COLM (2025), SCIS (2025), COLING (2024),
+                    Neurocomputing (2025, 2026)
+                  </span>
+                </li>
+                <li>
+                  <span class="date">Volunteer</span>
+                  <span class="text">ACL (2024)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <footer class="site-footer">
+          <div class="container footer-inner">
+            <div class="muted small">© <span id="year"></span> Tianjie Ju</div>
+          </div>
+        </footer>
+      </div>
     </main>
 
     <dialog id="publication-figure-dialog" class="figure-dialog" aria-labelledby="publication-figure-title">
